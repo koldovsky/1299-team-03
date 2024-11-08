@@ -31,7 +31,12 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 
 # Team
 
--Pelenskyi Bohdan
+- Pelenskyi Bohdan
 - Seliutina Svitlana
 - Oleksii Pavliuk
 - Sydorov Stas
+- Onyshko Pavlo
+- Seniak Stepan
+- Marharyta Shchukina
+- Kopaniuk Orest
+

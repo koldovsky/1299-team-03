@@ -4,25 +4,16 @@
       <img
         class="header__logo-image"
         width="106"
-        src="./images/global/header-logo.svg"
+        src="./img/global/main-logo.svg"
         alt="Shine Logo"
       />
     </a>
   </div>
-  <ul class="header__menu">
-    <li class="header__menu-item">
-      <a class="header__menu-link" href="#">About</a>
-    </li>
-    <li class="header__menu-item">
-      <a class="header__menu-link" href="#">Benefits</a>
-    </li>
-    <li class="header__menu-item">
-      <a class="header__menu-link" href="#">Testimonials</a>
-    </li>
-    <li class="header__menu-item">
-      <a class="header__menu-link" href="./contacts.html">Contacts</a>
-    </li>
-  </ul>
+  <ul
+    data-hx-trigger="load"
+    data-hx-swap="outerHTML"
+    data-hx-get="global.nav-menu.partial.html"
+  ></ul>
   <div class="header__order">
     <button class="header__order-button">Order Shine Box Now</button>
   </div>
