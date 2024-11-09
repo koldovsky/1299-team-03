@@ -1,0 +1,28 @@
+.contacts__header {
+  background-color: #325956;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 65px;
+
+  .contacts__title {
+    color: rgb(249, 243, 238);
+    font-size: 34px;
+    font-weight: lighter;
+  }
+
+  nav {
+    margin-top: 25px;
+  }
+  a,
+  nav {
+    text-decoration: none;
+    color: rgba(249, 243, 238, 0.53);
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+  a:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}

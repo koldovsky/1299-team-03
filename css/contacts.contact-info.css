@@ -1,0 +1,13 @@
+.contacts__info {
+  color: rgb(102, 130, 128);
+
+  h2 {
+    color: rgb(50, 89, 86);
+    font-size: 34px;
+    font-weight: 400;
+  }
+}
+
+.wrapper {
+    padding: 90px 24px 30px 24px;
+}
