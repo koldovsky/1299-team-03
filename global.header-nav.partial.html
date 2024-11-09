@@ -1,9 +1,8 @@
-<nav class="header__nav">
-  <div class="header__logo">
+<nav class="header__nav container">
+  <div class="header__logo header-nav-part">
     <a class="header__logo-link" href="./">
       <img
         class="header__logo-image"
-        width="106"
         src="./img/global/main-logo.svg"
         alt="Shine Logo"
       />
@@ -14,7 +13,14 @@
     data-hx-swap="outerHTML"
     data-hx-get="global.nav-menu.partial.html"
   ></ul>
-  <div class="header__order">
+  <div class="header__order header-nav-part">
     <button class="header__order-button">Order Shine Box Now</button>
+  </div>
+  <div class="header__burger header-nav-part">
+    <img
+      class="header__burger-icon"
+      src="./img/global/burger-menu-icon.svg"
+      alt="burger menu icon"
+    />
   </div>
 </nav>
