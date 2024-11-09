@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 *,
 *::after,
@@ -14,9 +14,10 @@
   --header-nav-menu-text-color: #577270eb;
   --order-button-text-color: #f1e6e1;
 
-  --chivo-font-family: "Chivo", sans-serif;
-  --istok-web-font-family: "Istok Web", sans-serif;
+  --primary-font-family: "Chivo", sans-serif;
+  --secondary-font-family: "Istok Web", sans-serif;
 
+  font-family: var(--primary-font-family);
   scroll-behavior: smooth;
 }
 
