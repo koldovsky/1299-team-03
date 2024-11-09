@@ -1,2 +1,9 @@
 @import url(./global.css);
 @import url(./global.header-nav.css);
+@import url(./contacts.contact-info.css);
+@import url(./contacts.header-hero.css);
+
+body {
+    font-family: "Istok Web", sans-serif;
+    background-color: #c2cca9;
+}
