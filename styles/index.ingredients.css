@@ -3,8 +3,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9e9f0;
-    color: #82498b;
+    background-color: #f3d7ea;
+    color: #edc8e5;
     margin: 0;
     padding: 0;
   }
@@ -12,7 +12,7 @@ body {
   .ingredients-section {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+    padding: 0;
   }
   
   .ingredients-container {
@@ -30,9 +30,10 @@ body {
     padding: 20px;
   }
   
-  .ingredients__image img {
+  .ingredients__image{
     width: 100%;
     border-radius: 8px;
+    padding: 0%;
   }
   
   /* Стилі контенту */
@@ -45,20 +46,25 @@ body {
   .ingredients__title {
     font-size: 2em;
     font-weight: bold;
-    margin-bottom: 10px;
-    color: #82498b;
+    color: #7D318A;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
   }
   
   .ingredients__description {
     font-size: 1.2em;
-    color: #a27cb4;
-    margin-bottom: 20px;
+    color: #7D318AA3;
+    margin: 20px;
+    font-family: "Chivo", sans-serif;
   }
   
   .ingredients__list {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    font-size: 12px;
+    color: #82498b;
+    font-family: "Chivo", sans-serif;
   }
   
   .ingredients__item {
@@ -71,23 +77,21 @@ body {
   
   .ingredients__text {
     font-size: 1em;
-    color: #82498b;
-    margin-bottom: 20px;
+    color: #3716466E;
+    font-family: 17px "Chivo", sans-serif;
   }
   
   .ingredients__button {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 1em;
-    color: #fff;
-    background-color: #82498b;
+    color: #F1E6E1;
+    background-color: #7D318A;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
     font-family: "Chivo", sans-serif;
   }
   
   .ingredients__button:hover {
     background-color: #6a3b73;
   }
-  
