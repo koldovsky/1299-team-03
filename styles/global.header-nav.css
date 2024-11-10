@@ -1,5 +1,7 @@
 .header {
-  background-color: var(--header-bg-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img//index//hero/header-hero-background.png);
 
   .header__nav {
     display: flex;
