@@ -1,8 +1,9 @@
 .contacts__header {
-  background-color: #325956;
+  background-color: var(--header-order-button-bg-color);
   text-align: center;
   padding-top: 60px;
   padding-bottom: 65px;
+  font-family: var(----secondary-font-family);
 
   .contacts__title {
     color: rgb(249, 243, 238);

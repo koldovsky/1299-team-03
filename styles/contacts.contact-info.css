@@ -1,3 +1,7 @@
+.wrapper {
+  padding: 90px 24px 30px 24px;
+}
+
 .contacts__info {
   color: rgb(102, 130, 128);
 
@@ -5,6 +9,7 @@
     color: rgb(50, 89, 86);
     font-size: 34px;
     font-weight: 400;
+    font-family: var(--secondary-font-family);
   }
 }
 
@@ -12,6 +17,3 @@
   margin-top: 25px;
 }
 
-.wrapper {
-  padding: 90px 24px 30px 24px;
-}
