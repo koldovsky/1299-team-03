@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -84,6 +84,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: "Chivo", sans-serif;
   }
   
   .ingredients__button:hover {
