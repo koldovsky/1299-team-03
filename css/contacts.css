@@ -1,8 +1,0 @@
-@import "global.css";
-@import "contacts.header-hero.css";
-@import "contacts.contact-info.css";
-
-body {
-    font-family: "Istok Web", sans-serif;
-    background-color: #c2cca9;
-}

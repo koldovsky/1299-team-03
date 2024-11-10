@@ -8,6 +8,10 @@
   }
 }
 
+.contacts__data p {
+  margin-top: 25px;
+}
+
 .wrapper {
-    padding: 90px 24px 30px 24px;
+  padding: 90px 24px 30px 24px;
 }
