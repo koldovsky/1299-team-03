@@ -32,9 +32,10 @@
     .contacts__title {
       font-size: 41px;
     }
-  @media (min-width: 992px) {
-    .contacts__title {
-      font-size: 48px;
+    @media (min-width: 992px) {
+      .contacts__title {
+        font-size: 48px;
+      }
     }
   }
 }

@@ -1,11 +1,16 @@
 .header {
+  background-color: var(--header-bg-color);
+
   .header__nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 30px 24px;
-    background-color: var(--header-bg-color);
+
+    & .header-nav-part {
+      margin: 0;
+    }
 
     .header__logo {
       min-width: 200px;
@@ -18,13 +23,7 @@
 
     .header__order {
       .header__order-button {
-        border: none;
         display: none;
-        padding: 15px 25px;
-        font-size: 14px;
-        font-weight: 700;
-        color: var(--order-button-text-color);
-        background-color: var(--header-order-button-bg-color);
       }
     }
 
@@ -35,11 +34,27 @@
       display: flex;
       align-items: center;
     }
+  }
 
-    @media (min-width: 990px) {
+  @media (min-width: 770px) {
+    .header__nav {
+      padding: 30px 32px;
+    }
+  }
+
+  @media (min-width: 990px) {
+    .header__nav {
+      padding: 30px 40px;
+
       .header__order {
         .header__order-button {
           display: block;
+          border: none;
+          padding: 15px 25px;
+          font-size: 14px;
+          font-weight: 700;
+          color: var(--order-button-text-color);
+          background-color: var(--header-order-button-bg-color);
         }
       }
 
