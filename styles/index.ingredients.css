@@ -1,97 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f3d7ea;
-    color: #edc8e5;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .ingredients-section {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  .ingredients-container {
-    display: flex;
-    max-width: 1200px;
-    background-color: #f9e9f0;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  /* Стилі зображення */
-  .ingredients__image {
-    flex: 1;
-    background-color: #f5cde2;
-    padding: 20px;
-  }
-  
-  .ingredients__image{
-    width: 100%;
-    border-radius: 8px;
-    padding: 0%;
-  }
-  
-  /* Стилі контенту */
-  .ingredients__content {
-    flex: 1;
-    padding: 40px;
-    background-color: #f3d7ea;
-  }
-  
-  .ingredients__title {
-    font-size: 2em;
-    font-weight: bold;
-    color: #7D318A;
-    font-family: "Istok Web", sans-serif;
-    font-weight: 400;
-  }
-  
-  .ingredients__description {
-    font-size: 1.2em;
-    color: #7D318AA3;
-    margin: 20px;
-    font-family: "Chivo", sans-serif;
-  }
-  
-  .ingredients__list {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    color: #82498b;
-    font-family: "Chivo", sans-serif;
-  }
-  
-  .ingredients__item {
-    background-color: #f3d7ea;
-    padding: 5px 10px;
-    border-radius: 4px;
-    color: #82498b;
-    font-weight: bold;
-  }
-  
-  .ingredients__text {
-    font-size: 1em;
-    color: #3716466E;
-    font-family: 17px "Chivo", sans-serif;
-  }
-  
-  .ingredients__button {
-    padding: 10px 15px;
-    font-size: 1em;
-    color: #F1E6E1;
-    background-color: #7D318A;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    font-family: "Chivo", sans-serif;
-  }
-  
-  .ingredients__button:hover {
-    background-color: #6a3b73;
-  }
+.ingredients-section {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.ingredients-container {
+  display: flex;
+  max-width: 1200px;
+  background-color: #f9e9f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Стилі зображення */
+.ingredients__image {
+  flex: 1;
+  background-color: #f5cde2;
+  padding: 20px;
+}
+
+.ingredients__image{
+  width: 100%;
+  border-radius: 8px;
+  padding: 0%;
+}
+
+/* Стилі контенту */
+.ingredients__content {
+  flex: 1;
+  padding: 40px;
+  background-color: #edc8e5;
+}
+
+.ingredients__title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #7D318A;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 400;
+}
+
+.ingredients__description {
+  font-size: 1.2em;
+  color: #7D318AA3;
+  margin: 20px;
+  font-family: "Chivo", sans-serif;
+}
+
+.ingredients__list {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #82498b;
+  font-family: "Chivo", sans-serif;
+}
+
+.ingredients__item {
+  background-color: #f3d7ea;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #82498b;
+  font-weight: bold;
+}
+
+.ingredients__text {
+  font-size: 1em;
+  color: #3716466E;
+  font-family: 17px "Chivo", sans-serif;
+}
+
+.ingredients__button {
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #F1E6E1;
+  background-color: #7D318A;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Chivo", sans-serif;
+}
+
+.ingredients__button:hover {
+  background-color: #6a3b73;
+}
