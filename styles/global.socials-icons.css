@@ -1,0 +1,12 @@
+.socials {
+  gap: 15px;
+  display: flex;
+  margin-top: 32px;
+  list-style: none;
+}
+
+@media (min-width: 770px) {
+  .socials {
+    margin-top: 70px;
+  }
+}

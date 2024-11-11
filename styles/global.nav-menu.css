@@ -1,0 +1,21 @@
+.menu {
+  display: none;
+
+  .menu__item {
+    list-style: none;
+    padding: 0 20px;
+
+    .menu__item-link {
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--header-nav-menu-text-color);
+    }
+  }
+}
+
+@media (min-width: 990px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+}

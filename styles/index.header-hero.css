@@ -1,0 +1,60 @@
+.header__hero {
+  padding: 110px 24px 30px;
+
+  .header__title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: var(--header-hero-title-text-color);
+    font-family: var(--secondary-font-family);
+  }
+
+  .header__subtitle {
+    margin-top: 35px;
+    font-size: 1.19rem;
+    line-height: 1.4em;
+    color: var(--header-hero-subtitle-text-color);
+  }
+
+  .header__content {
+    margin-top: 30px;
+    font-size: 1.06rem;
+    line-height: 2em;
+    color: var(--header-hero-content-text-color);
+
+    .header__content-price {
+      font-size: 1.95rem;
+      font-weight: 700;
+      color: var(--header-hero-content-price-text-color);
+    }
+  }
+
+  .header__button {
+    margin-top: 46px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 770px) {
+  .header__hero {
+    padding: 160px 32px 30px;
+
+    .header__title,
+    .header__subtitle,
+    .header__content {
+      width: 50%;
+    }
+
+    .header__title {
+      font-size: 4.06rem;
+    }
+
+    .header__content {
+      margin-top: 22px;
+    }
+
+    .header__button {
+      margin-top: 200px;
+    }
+  }
+}
