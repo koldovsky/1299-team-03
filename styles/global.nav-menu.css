@@ -1,6 +1,5 @@
 .menu {
   display: none;
-  align-items: center;
 
   .menu__item {
     list-style: none;
@@ -17,5 +16,6 @@
 @media (min-width: 990px) {
   .menu {
     display: flex;
+    align-items: center;
   }
 }
