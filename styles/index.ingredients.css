@@ -1,13 +1,11 @@
 .ingredients-section {
   display: flex;
   justify-content: center;
-  /* padding-left: 15px; */
   padding-right: 20px;
 }
 
 .ingredients-container {
   display: flex;
-  /* max-width: 1200px; */
   background-color: #f9e9f0;
   border-radius: 8px;
   overflow: hidden;
@@ -15,7 +13,7 @@
 
 /* Стилі зображення */
 .ingredients__image__block{
-  width: 100%;
+  width: 50%;
   border-radius: 8px;
   padding: 0%;
 }
@@ -33,7 +31,7 @@
 }
 
 .ingredients__title {
-  font-size: 2em;
+  font-size: 34px;
   font-weight: bold;
   color: #7D318A;
   font-family: "Istok Web", sans-serif;
@@ -43,14 +41,14 @@
 .ingredients__description {
   font-size: 1.2em;
   color: #7D318AA3;
-  margin: 20px;
+  margin: 14px;
   font-family: "Chivo", sans-serif;
 }
 
 .ingredients__list {
   display: flex;
   gap: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: #82498b;
   font-family: "Chivo", sans-serif;
 }
@@ -61,7 +59,14 @@
   border-radius: 4px;
   color: #82498b;
   font-weight: bold;
+  background-color: transparent;
 }
+
+.ingredients__item svg {
+  margin-right: 1px;
+  vertical-align: text-bottom;
+}
+
 
 .ingredients__text {
   font-size: 1em;
@@ -71,7 +76,7 @@
 
 .ingredients__button {
   padding: 10px 15px;
-  font-size: 1em;
+  font-size: 13px;
   color: #F1E6E1;
   background-color: #7D318A;
   border: none;
@@ -84,15 +89,14 @@
   background-color: #6a3b73;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 630px) {
   .ingredients__content {
-    padding: 10px;
+    padding: 1rem;
   }
   .ingredients__title {
-    font-size: 1em;
+    font-size: 1rem;
   }
-  .ingredients-container{
+  .ingredients__container {
     flex-wrap: wrap;
   }
 }
