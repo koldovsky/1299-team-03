@@ -14,16 +14,15 @@
 }
 
 /* Стилі зображення */
-.ingredients__image {
-  flex: 1;
-  background-color: #f5cde2;
-  padding: 20px;
+.ingredients__image__block{
+  width: 100%;
+  border-radius: 8px;
+  padding: 0%;
 }
 
 .ingredients__image{
   width: 100%;
-  border-radius: 8px;
-  padding: 0%;
+  height: 100%; 
 }
 
 /* Стилі контенту */
