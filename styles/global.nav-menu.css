@@ -8,8 +8,28 @@
 
     .menu__item-link {
       cursor: pointer;
+      position: relative;
       text-decoration: none;
       color: var(--header-nav-menu-text-color);
+
+      &:hover {
+        color: var(--header-nav-menu-hover-text-color);
+
+        &::before {
+          width: 100%;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--header-nav-menu-hover-text-color);
+        transition: width 0.3s ease-in-out;
+      }
     }
   }
 }
