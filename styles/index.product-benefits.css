@@ -1,0 +1,8 @@
+.product-benefits {
+    display: flex;
+}
+
+.product-benefits__icon {
+    width: 17.5px;
+    height: auto;
+}
