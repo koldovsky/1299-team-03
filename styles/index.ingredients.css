@@ -6,7 +6,7 @@
 
 .ingredients-container {
   display: flex;
-  background-color: var(--primary-300);
+  background-color: var(--pink-300);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -27,20 +27,20 @@
 .ingredients__content {
   flex: 1;
   padding: 40px;
-  background-color: var(--primary-400);
+  background-color: var(--pink-400);
 }
 
 .ingredients__title {
   font-size: 34px;
   font-weight: bold;
-  color: var(--primary-700);
+  color: var(--pink-700);
   font-family: "Istok Web", sans-serif;
   font-weight: 400;
 }
 
 .ingredients__description {
   font-size: 1.2em;
-  color: var(--primary-800);
+  color: var(--pink-800);
   margin: 14px;
   font-family: "Chivo", sans-serif;
 }
@@ -49,15 +49,15 @@
   display: flex;
   gap: 10px;
   font-size: 14px;
-  color: var(--primary-600);
+  color: var(--pink600);
   font-family: "Chivo", sans-serif;
 }
 
 .ingredients__item {
-  background-color: var(--primary-100);
+  background-color: var(--pink-100);
   padding: 5px 10px;
   border-radius: 4px;
-  color: var(--primary-600);
+  color: var(--pink-600);
   font-weight: bold;
   background-color: transparent;
 }
@@ -70,15 +70,15 @@
 
 .ingredients__text {
   font-size: 1em;
-  color: var(--primary-900);
+  color: var(--pink-900);
   font-family: 17px "Chivo", sans-serif;
 }
 
 .ingredients__button {
   padding: 10px 15px;
   font-size: 13px;
-  color: var(--primary-200);
-  background-color: var(--primary-700);
+  color: var(--pink-200);
+  background-color: var(--pink-700);
   border: none;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -86,7 +86,7 @@
 }
 
 .ingredients__button:hover {
-  background-color: var(--primary-500);
+  background-color: var(--pink-500);
 }
 
 @media screen and (min-width: 320px) and (max-width: 630px) {
