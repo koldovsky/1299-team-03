@@ -9,6 +9,9 @@
 }
 
 :root {
+  /* -------- COLORS -------- */
+
+  --primary-950: #223f3c;
   --primary-900: #325956;
   --primary-800: #577270eb;
   --primary-700: #668280;
@@ -18,7 +21,6 @@
   --primary-300: #C0CBA5;
   --primary-200: #c8d2af;
   --primary-100: #f1e7e1;
-  
 
   --pink-900: #3716466E;
   --pink-800: #7D318AA3;
@@ -35,10 +37,14 @@
   --yellow-300: #9b8f22b8;
   --yellow-200: #a39135;
   --yellow-100: #f6f2d3;
+
+  /* -------- VARIABLES -------- */
   
   --header-bg-color: var(--primary-300);
   --header-order-button-bg-color: var(--primary-900);
+  --header-order-button-bg-hover-color: var(--primary-950);
   --header-nav-menu-text-color: var(--primary-800);
+  --header-nav-menu-hover-text-color: var(--primary-900);
   --header-hero-title-text-color: var(--primary-900);
   --header-hero-subtitle-text-color: var(--primary-800);
   --header-hero-content-text-color: var(--primary-700);
