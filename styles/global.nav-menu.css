@@ -3,6 +3,7 @@
 
   .menu__item {
     list-style: none;
+    cursor: pointer;
     padding: 0 20px;
 
     .menu__item-link {
