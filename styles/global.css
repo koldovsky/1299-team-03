@@ -28,6 +28,12 @@
   --pink-300: #f9e9f0;
   --pink-200: #F1E6E1;
   --pink-100: #f3d7ea;
+
+  --yellow-500: #9b8f2230;
+  --yellow-400: #9b8f22ad;
+  --yellow-300: #9b8f22b8;
+  --yellow-200: #a39135;
+  --yellow-100: #f6f2d3;
   
   --header-bg-color: var(--primary-300);
   --header-order-button-bg-color: var(--primary-900);
