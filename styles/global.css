@@ -18,6 +18,7 @@
   --primary-300: #C0CBA5;
   --primary-200: #c8d2af;
   --primary-100: #f1e7e1;
+  
 
   --pink-900: #3716466E;
   --pink-800: #7D318AA3;
@@ -43,6 +44,9 @@
   --header-hero-content-text-color: var(--primary-700);
   --header-hero-content-price-text-color: var(--primary-900);
   --order-button-text-color: var(--primary-100);
+
+  --basket-border-color: #edc8e5;
+  --basket-bg-color: #ffffff;
 
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;

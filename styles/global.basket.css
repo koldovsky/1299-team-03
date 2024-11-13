@@ -1,0 +1,14 @@
+.basket {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid var(--basket-border-color);
+  border-radius: 50%;
+  background-color: var(--basket-bg-color);
+}
