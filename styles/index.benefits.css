@@ -181,6 +181,8 @@
     color: var(--yellow-400);
     letter-spacing: normal;
     line-height: 25.5px;
+    width: 570px;
+    height: 45.5px;
   }
 
   .benefits__benefit {
