@@ -48,6 +48,23 @@
   --basket-border-color: #edc8e5;
   --basket-bg-color: #ffffff;
 
+  --certificates-bg-color: var(--primary-200);
+  --certificates-title-color: var(--primary-900);
+  --certificates-countries-color: var(--primary-800);
+  --certificates-ingredients-color: var(--primary-700);
+  --certificates-arrow-left-block-color: var(--primary-900);
+  --certificates-arrow-left-color: var(--primary-100);
+  --certificates-arrow-right-block-color: var(--primary-900);
+  --certificates-arrow-right-color: var(--primary-100);
+
+  --benefits-bg-color: var(--yellow-100);
+  --benefits-left-side-title-color: var(--yellow-200);
+  --benefits-left-side-paragraph-higher-color: var(--yellow-300);
+  --benefits-left-side-paragraph-lower-color: var(--yellow-400);
+  --benefits-title-color: var(--yellow-200);
+  --benefits-paragraph-color: var(--yellow-400);
+  --benefits-circle-color: var(--yellow-500); 
+
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;
 
