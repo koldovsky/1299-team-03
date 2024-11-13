@@ -1,5 +1,5 @@
 .certificates__background {
-  background-color: var(--primary-200);
+  background-color: var(--certificates-bg-color);
   width: 100%;
   padding: 0;
 }
@@ -22,21 +22,21 @@
 }
 
 .certificates__title {
-  color: var(--primary-900);
+  color: var(--certificates-title-color);
   font-weight: 400;
   justify-content: flex-start;
 }
 
 .certificates__countries {
   margin-top: 25px;
-  color: var(--primary-800);
+  color: var(--certificates-countries-color);
   font-family: var(--primary-font-family);
   font-size: 19px;
   font-weight: 500;
 }
 
 .certificates__ingredients {
-  color: var(--primary-700);
+  color: var(--certificates-ingredients-color);
   font-family: var(--primary-font-family);
   font-size: 17px;
   font-weight: 400;
@@ -90,7 +90,7 @@
     .certificates__carousel-arrow-left-block {
       border-radius: 50%;
       flex-shrink: 0;
-      background-color: var(--primary-900);
+      background-color: var(--certificates-arrow-left-block-color);
       width: 24px;
       height: 24px;
       position: relative;
@@ -104,13 +104,13 @@
       transform: rotateY(180deg);
       width: 12px;
       height: 12px;
-      fill: var(--primary-100);
+      fill: var(--certificates-arrow-left-color);
     }
 
     .certificates__carousel-arrow-right-block {
       border-radius: 50%;
       flex-shrink: 0;
-      background-color: var(--primary-900);
+      background-color: var(--certificates-arrow-right-block-color);
       width: 24px;
       height: 24px;
       position: relative;
@@ -123,7 +123,7 @@
     .certificates__carousel-arrow-right {
       width: 12px;
       height: 12px;
-      fill: var(--primary-100);
+      fill: var(--certificates-arrow-right-color);
     }
   }
 
@@ -183,7 +183,7 @@
   }
 
   .certificates__title {
-    color: var(--primary-900);
+    color: var(--certificates-title-color);
     font-weight: 400;
     font-family: var(--secondary-font-family);
     font-size: 48px;
@@ -209,7 +209,7 @@
     .certificates__carousel-arrow-left-block {
       border-radius: 50%;
       flex-shrink: 0;
-      background-color: var(--primary-900);
+      background-color: var(--certificates-arrow-left-block-color);
       width: 32px;
       height: 32px;
       position: relative;
@@ -222,13 +222,13 @@
       transform: rotateY(180deg);
       width: 20px;
       height: 20px;
-      fill: var(--primary-100);
+      fill: var(--certificates-arrow-left-color);
     }
 
     .certificates__carousel-arrow-right-block {
       border-radius: 50%;
       flex-shrink: 0;
-      background-color: var(--primary-900);
+      background-color: var(--certificates-arrow-right-block-color);
       width: 32px;
       height: 32px;
       position: relative;
@@ -240,7 +240,7 @@
     .certificates__carousel-arrow-right {
       width: 20px;
       height: 20px;
-      fill: var(--primary-100);
+      fill: var(--certificates-arrow-right-color);
     }
   }
 
