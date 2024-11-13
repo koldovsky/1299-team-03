@@ -19,6 +19,16 @@
   --primary-200: #c8d2af;
   --primary-100: #f1e7e1;
 
+  --pink-900: #3716466E;
+  --pink-800: #7D318AA3;
+  --pink-700: #7D318A;
+  --pink-600: #82498b;
+  --pink-500: #6a3b73;
+  --pink-400: #edc8e5;
+  --pink-300: #f9e9f0;
+  --pink-200: #F1E6E1;
+  --pink-100: #f3d7ea;
+  
   --header-bg-color: var(--primary-300);
   --header-order-button-bg-color: var(--primary-900);
   --header-nav-menu-text-color: var(--primary-800);
