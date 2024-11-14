@@ -1,0 +1,9 @@
+.steps-of-using {
+    background-color: #f9f3ee;
+    display: flex;
+}
+
+.steps-of-using__image {
+    width: 70px;
+    height: 70px;
+}

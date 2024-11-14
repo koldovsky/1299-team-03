@@ -55,8 +55,14 @@
           padding: 15px 25px;
           font-size: 14px;
           font-weight: 700;
+          cursor: pointer;
           color: var(--order-button-text-color);
           background-color: var(--header-order-button-bg-color);
+          transition: 0.5s;
+
+          &:hover {
+            background-color: var(--header-order-button-bg-hover-color);
+          }
         }
       }
 
