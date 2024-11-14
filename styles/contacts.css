@@ -21,5 +21,11 @@ a {
 } */
 
 .contacts__body {
-  background-color: #c8d1af;
+  background-color: var(--contacts-body-background-color);
+  color:rgb(102,130,128)
+}
+
+.contacts__body a {
+  text-decoration: none;
+  color:rgb(102,130,128)
 }

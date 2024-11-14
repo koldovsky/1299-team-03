@@ -3,7 +3,8 @@
 }
 
 .contacts__info {
-  color: rgb(102, 130, 128);
+  color: #668280;
+  font-size: 17px;
 
   h2 {
     color: rgb(50, 89, 86);
@@ -14,7 +15,6 @@
 
   .contacts__item {
     display: flex;
-    align-items: center;
     margin-top: 20px;
   }
 
@@ -39,8 +39,9 @@
 
   .contact__info {
     margin: 7.5px;
+    overflow-wrap: anywhere;
+    font-weight: 400;
   }
-
 }
 
 .contacts__data p {

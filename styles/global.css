@@ -18,18 +18,18 @@
   --primary-600: #cdd5b399;
   --primary-500: #90a48d;
   --primary-400: #a0b098;
-  --primary-300: #C0CBA5;
+  --primary-300: #c0cba5;
   --primary-200: #c8d2af;
   --primary-100: #f1e7e1;
 
-  --pink-900: #3716466E;
-  --pink-800: #7D318AA3;
-  --pink-700: #7D318A;
+  --pink-900: #3716466e;
+  --pink-800: #7d318aa3;
+  --pink-700: #7d318a;
   --pink-600: #82498b;
   --pink-500: #6a3b73;
   --pink-400: #edc8e5;
   --pink-300: #f9e9f0;
-  --pink-200: #F1E6E1;
+  --pink-200: #f1e6e1;
   --pink-100: #f3d7ea;
 
   --yellow-500: #9b8f2230;
@@ -39,7 +39,7 @@
   --yellow-100: #f6f2d3;
 
   /* -------- VARIABLES -------- */
-  
+
   --header-bg-color: var(--primary-300);
   --header-order-button-bg-color: var(--primary-900);
   --header-order-button-bg-hover-color: var(--primary-950);
@@ -70,7 +70,7 @@
   --benefits-left-side-paragraph-lower-color: var(--yellow-400);
   --benefits-title-color: var(--yellow-200);
   --benefits-paragraph-color: var(--yellow-400);
-  --benefits-circle-color: var(--yellow-500); 
+  --benefits-circle-color: var(--yellow-500);
 
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;
