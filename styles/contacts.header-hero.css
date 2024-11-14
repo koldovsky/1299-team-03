@@ -3,12 +3,12 @@
   text-align: center;
   padding-top: 60px;
   padding-bottom: 65px;
-  font-family: var(----secondary-font-family);
+  font-family: var(--secondary-font-family);
 
   .contacts__title {
     color: rgb(249, 243, 238);
     font-size: 34px;
-    font-weight: lighter;
+    font-weight: 400;
   }
 
   nav {
