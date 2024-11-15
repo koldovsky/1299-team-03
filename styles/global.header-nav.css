@@ -4,12 +4,17 @@
   background-repeat: no-repeat;
   background-image: url(../img//index//hero/header-hero-background.png);
 
+  &.contacts {
+    background-image: none;
+    background-color: var(--header-bg-color);
+  }
+
   .header__nav {
     display: flex;
+    padding: 30px 24px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 24px;
 
     & .header-nav-part {
       margin: 0;
