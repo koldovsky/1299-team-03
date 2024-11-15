@@ -3,7 +3,10 @@
   padding: 90px 0 30px;
   margin: 0;
 }
-
+.container{
+  max-width: 1200px;
+  margin:auto;
+}
 .product-box-carousel-section__title {
   text-align: left;
   font-size: 2.125rem;
@@ -15,6 +18,11 @@
   margin: 15px;
   padding: 0 15px;
   letter-spacing: 1px;
+}
+.products-carousel__slides-container{
+display: flex;
+ flex-direction: column; 
+ align-items: center;
 }
 
 @media (min-width: 770px) {
@@ -44,20 +52,14 @@
 .products-carousel__slide {
   background-color: var(--products-box-slide-bg-color);
   display: grid;
-  grid-template-rows: 1fr 1fr;
   margin: 15px;
-  max-width:800px;
 }
-  
-
 @media (min-width: 770px) {
   .products-carousel__slide {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
-    margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
   }
 }
+
 
 .products-carousel__slide-image {
   width: 100%;
