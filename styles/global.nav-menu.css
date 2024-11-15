@@ -1,6 +1,4 @@
 .menu {
-  display: none;
-
   .menu__item {
     list-style: none;
     cursor: pointer;

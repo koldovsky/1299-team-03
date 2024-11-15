@@ -4,16 +4,32 @@
   background-repeat: no-repeat;
   background-image: url(../img//index//hero/header-hero-background.png);
 
+  &.contacts,
+  &.dropdown {
+    background-image: none;
+    background-color: var(--header-bg-color);
+  }
+
+  &.dropdown {
+    .header__nav {
+      .header__dropdown {
+        left: 0;
+        top: 109px;
+        width: 100%;
+        display: flex;
+        height: 100svh;
+        position: absolute;
+        background-color: var(--header-bg-color);
+      }
+    }
+  }
+
   .header__nav {
     display: flex;
+    padding: 30px 24px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 24px;
-
-    & .header-nav-part {
-      margin: 0;
-    }
 
     .header__logo {
       min-width: 180px;
@@ -22,6 +38,10 @@
         display: block;
         width: 106px;
       }
+    }
+
+    .menu {
+      display: none;
     }
 
     .header__order {
@@ -36,6 +56,34 @@
       padding: 12px 8px;
       display: flex;
       align-items: center;
+    }
+
+    .header__dropdown {
+      display: none;
+      align-items: center;
+      flex-direction: column;
+
+      .menu {
+        display: flex;
+        flex-direction: column;
+
+        .menu__item {
+          margin: 10px 0;
+          text-align: center;
+
+          .menu__item-link:hover::before {
+            width: 0;
+          }
+        }
+      }
+
+      .header__order {
+        margin-top: 30px;
+
+        .header__order-button {
+          display: flex;
+        }
+      }
     }
   }
 
@@ -52,19 +100,11 @@
       .header__order {
         .header__order-button {
           display: block;
-          border: none;
-          padding: 15px 25px;
-          font-size: 14px;
-          font-weight: 700;
-          cursor: pointer;
-          color: var(--order-button-text-color);
-          background-color: var(--header-order-button-bg-color);
-          transition: 0.5s;
-
-          &:hover {
-            background-color: var(--header-order-button-bg-hover-color);
-          }
         }
+      }
+
+      .menu {
+        display: flex;
       }
 
       .header__burger {
