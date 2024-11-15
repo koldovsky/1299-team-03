@@ -1,4 +1,5 @@
 .header {
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../img//index//hero/header-hero-background.png);
@@ -15,7 +16,7 @@
     }
 
     .header__logo {
-      min-width: 200px;
+      min-width: 180px;
 
       .header__logo-link {
         display: block;
@@ -69,6 +70,12 @@
       .header__burger {
         display: none;
       }
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .header__nav {
+      padding: 30px 15px;
     }
   }
 }
