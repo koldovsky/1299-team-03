@@ -1,80 +1,92 @@
-<div class="shopping-cart">
-  <div class="shopping-cart__header">
-    <h2 class="shopping-cart__title">Shopping Cart</h2>
-    <button class="shopping-cart__close-button" aria-label="Close">
-      &times;
-    </button>
-  </div>
-  <div class="shopping-cart__content">
-    <div shopping-cart-product>
-      <img
-        src="/img/index/shopping-cart/shopping-cart-product.png"
-        alt="Shine Box"
-      />
-      <div class="shopping-cart__product-info">
-        <p class="shopping-cart__product-name">Shine Box ...</p>
-        <div class="shopping-cart__quantity">
-          <label for="product-quantity" class="shopping-cart__quantity-label"
-            >Quantity:</label
-          >
+<div class="shopping-cart-container">
+  <div class="shopping-cart">
+    <div class="shopping-cart__header">
+      <h2 class="shopping-cart__title">Shopping Cart</h2>
+      <button class="shopping-cart__close-button" aria-label="Close">
+        &times;
+      </button>
+    </div>
+    <div class="shopping-cart__content">
+      <div class="shopping-cart__product">
+        <h3 class="shopping-cart__product-header">Products</h3>
+        <div class="shopping-cart__product-info">
+          <img
+            class="shopping-cart__product-info-image"
+            src="/img/index/shopping-cart/shopping-cart-product.png"
+            alt="Shine Box"
+          />
+          <p class="shopping-cart__product-name">Shine Box ...</p>
           <input
             type="number"
             id="product-quantity"
             class="shopping-cart__quantity-input"
             value="1"
           />
+          <p class="shopping-cart__product-price">$299.00</p>
         </div>
-        <p class="shopping-cart__product-price">$299.00</p>
       </div>
+      <div class="shopping-cart__summary">
+        <a href="#" class="shopping-cart__promo-link">Promo code</a>
+        <div class="shopping-cart__total">
+          <span class="shopping-cart__total-label">Total:</span>
+          <span class="shopping-cart__total-amount">$299.00</span>
+        </div>
+      </div>
+      <form class="shopping-cart__form" action="#" method="post">
+        <h3 class="shopping-cart__form-header">Place an order</h3>
+        <div class="shopping-cart__form-group">
+          <label class="shopping-cart__form-label" for="name"
+            >Name <span>*</span></label
+          >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="shopping-cart__form-input"
+            placeholder="Your name"
+          />
+        </div>
+        <div class="shopping-cart__form-group">
+          <label class="shopping-cart__form-label" for="email"
+            >Email <span>*</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="shopping-cart__form-input"
+            placeholder="Your email"
+          />
+        </div>
+        <div class="shopping-cart__form-group">
+          <label class="shopping-cart__form-label" for="phone"
+            >Phone <span>*</span></label
+          >
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="shopping-cart__form-input"
+            placeholder="Your phone"
+          />
+        </div>
+        <div class="shopping-cart__form-group">
+          <label class="shopping-cart__form-label" for="comments"
+            >Comments</label
+          >
+          <textarea
+            id="comments"
+            name="comments"
+            class="shopping-cart__form-input shopping-cart__form-textarea"
+            placeholder="Add any additional information on the order here"
+          ></textarea>
+        </div>
+        <div class="shopping-cart__form-footer">
+          <button type="submit" class="shopping-cart__submit">
+            Order Shine Box
+          </button>
+        </div>
+      </form>
     </div>
-    <div class="shopping-cart__promo">
-      <a href="#" class="shopping-cart__promo-link">Promo code</a>
-    </div>
-    <div class="shopping-cart__total">
-      <span class="shopping-cart__total-label">Total:</span>
-      <span class="shopping-cart__total-amount">$299.00</span>
-    </div>
-    <form class="shopping-cart__form" action="#" method="post">
-      <h3 class="shopping-cart__form-header">Place an order</h3>
-
-      <label class="shopping-cart__form-label" for="name">Name *</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        class="shopping-cart__form-input"
-        placeholder="Your name"
-      />
-
-      <label class="shopping-cart__form-label" for="email">Email *</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        class="shopping-cart__form-input"
-        placeholder="Your email"
-      />
-
-      <label class="shopping-cart__form-label" for="phone">Phone *</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        class="shopping-cart__form-input"
-        placeholder="Your phone"
-      />
-
-      <label class="shopping-cart__form-label" for="comments">Comments</label>
-      <textarea
-        id="comments"
-        name="comments"
-        class="shopping-cart__textarea"
-        placeholder="Add any additional information on the order here"
-      ></textarea>
-
-      <button type="submit" class="shopping-cart__submit">
-        Order Shine Box
-      </button>
-    </form>
   </div>
 </div>

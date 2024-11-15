@@ -50,11 +50,31 @@
     }
 
     .header__content {
-      margin-top: 22px;
+      margin-top: 30px;
     }
 
     .header__button {
       margin-top: 200px;
     }
+  }
+}
+
+@media (min-width: 990px) {
+  .header__hero {
+    padding: 210px 40px 30px;
+
+    .header__title {
+      font-size: 4.625rem;
+    }
+
+    .header__subtitle {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__hero {
+    padding: 210px 15px 30px;
   }
 }

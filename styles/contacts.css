@@ -1,10 +1,11 @@
 @import "global.css";
 @import "global.header-nav.css";
 @import "global.nav-menu.css";
+@import "global.basket.css";
 @import "contacts.contact-info.css";
 @import "contacts.header-hero.css";
 
-body {
+/* body {
   font-family: var(--primary-font-family);
   background-color: rgb(194, 204, 169);
 }
@@ -15,6 +16,16 @@ img {
 }
 
 a {
+  text-decoration: none;
+  color:rgb(102,130,128)
+} */
+
+.contacts__body {
+  background-color: var(--contacts-body-background-color);
+  color:rgb(102,130,128)
+}
+
+.contacts__body a {
   text-decoration: none;
   color:rgb(102,130,128)
 }

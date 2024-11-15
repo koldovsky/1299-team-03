@@ -1,0 +1,31 @@
+.basket {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid var(--basket-border-color);
+  border-radius: 50%;
+  background-color: var(--basket-bg-color);
+  box-shadow: 0 0 1px var(--basket-box-shadow-color),
+    0 2px 4px var(--basket-box-shadow-color);
+
+  .basket__counter {
+    top: -4px;
+    right: -4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: var(--basket-counter-text-color);
+    background-color: var(--basket-counter-bg-color);
+    font-family: var(--default-font-family);
+  }
+}

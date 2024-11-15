@@ -1,4 +1,5 @@
 .header {
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../img//index//hero/header-hero-background.png);
@@ -15,7 +16,7 @@
     }
 
     .header__logo {
-      min-width: 200px;
+      min-width: 180px;
 
       .header__logo-link {
         display: block;
@@ -55,14 +56,26 @@
           padding: 15px 25px;
           font-size: 14px;
           font-weight: 700;
+          cursor: pointer;
           color: var(--order-button-text-color);
           background-color: var(--header-order-button-bg-color);
+          transition: 0.5s;
+
+          &:hover {
+            background-color: var(--header-order-button-bg-hover-color);
+          }
         }
       }
 
       .header__burger {
         display: none;
       }
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .header__nav {
+      padding: 30px 15px;
     }
   }
 }

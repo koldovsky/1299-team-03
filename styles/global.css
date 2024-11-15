@@ -9,27 +9,77 @@
 }
 
 :root {
+  /* -------- COLORS -------- */
+
+  --primary-970: #21273629;
+  --primary-950: #223f3c;
   --primary-900: #325956;
   --primary-800: #577270eb;
   --primary-700: #668280;
   --primary-600: #cdd5b399;
   --primary-500: #90a48d;
   --primary-400: #a0b098;
-  --primary-300: #C0CBA5;
+  --primary-300: #c0cba5;
   --primary-200: #c8d2af;
   --primary-100: #f1e7e1;
+  --primary-000: #ffffff;
+
+  --pink-900: #3716466e;
+  --pink-800: #7d318aa3;
+  --pink-700: #7d318a;
+  --pink-600: #82498b;
+  --pink-500: #6a3b73;
+  --pink-400: #edc8e5;
+  --pink-300: #f9e9f0;
+  --pink-200: #f1e6e1;
+  --pink-100: #f3d7ea;
+
+  --yellow-500: #9b8f2230;
+  --yellow-400: #9b8f22ad;
+  --yellow-300: #9b8f22b8;
+  --yellow-200: #a39135;
+  --yellow-100: #f6f2d3;
+
+  /* -------- VARIABLES -------- */
 
   --header-bg-color: var(--primary-300);
   --header-order-button-bg-color: var(--primary-900);
+  --header-order-button-bg-hover-color: var(--primary-950);
   --header-nav-menu-text-color: var(--primary-800);
+  --header-nav-menu-hover-text-color: var(--primary-900);
   --header-hero-title-text-color: var(--primary-900);
   --header-hero-subtitle-text-color: var(--primary-800);
   --header-hero-content-text-color: var(--primary-700);
   --header-hero-content-price-text-color: var(--primary-900);
   --order-button-text-color: var(--primary-100);
+  --contacts-body-background-color: #c8d1af;
+
+  --basket-border-color: var(--pink-400);
+  --basket-bg-color: var(--primary-000);
+  --basket-counter-text-color: var(--primary-100);
+  --basket-counter-bg-color: var(--primary-200);
+  --basket-box-shadow-color: var(--primary-970);
+
+  --certificates-bg-color: var(--primary-200);
+  --certificates-title-color: var(--primary-900);
+  --certificates-countries-color: var(--primary-800);
+  --certificates-ingredients-color: var(--primary-700);
+  --certificates-arrow-left-block-color: var(--primary-900);
+  --certificates-arrow-left-color: var(--primary-100);
+  --certificates-arrow-right-block-color: var(--primary-900);
+  --certificates-arrow-right-color: var(--primary-100);
+
+  --benefits-bg-color: var(--yellow-100);
+  --benefits-left-side-title-color: var(--yellow-200);
+  --benefits-left-side-paragraph-higher-color: var(--yellow-300);
+  --benefits-left-side-paragraph-lower-color: var(--yellow-400);
+  --benefits-title-color: var(--yellow-200);
+  --benefits-paragraph-color: var(--yellow-400);
+  --benefits-circle-color: var(--yellow-500);
 
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;
+  --default-font-family: "Times New Roman", Times, serif;
 
   font-family: var(--primary-font-family);
   scroll-behavior: smooth;
