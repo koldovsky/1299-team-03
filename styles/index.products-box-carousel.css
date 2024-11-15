@@ -1,165 +1,165 @@
 .product-box-carousel-section {
-    background-color: #f1e6e1;
-    padding: 90px 0 30px;
+  background-color: var(--products-box-bg-color);
+  padding: 90px 0 30px;
 }
 
 .product-box-carousel-section__title {
-    text-align: left;
-    font-size: 2.125rem;
-    font-family: var(--secondary-font-family);
-    color: #325956;
-    font-weight: 400px;
-    padding-top: 120px;
-    margin: 15px;
-    padding: 0 15px;
-    letter-spacing: 1px;
+  text-align: left;
+  font-size: 2.125rem;
+  font-family: var(--secondary-font-family);
+  color: var(--products-box-title-color);
+  font-weight: 400px;
+  padding-top: 120px;
+  margin: 15px;
+  padding: 0 15px;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 770px) {
-    .product-box-carousel-section__title {
-        text-align: center;
-        font-size: 3rem;
-    }
+  .product-box-carousel-section__title {
+    text-align: center;
+    font-size: 3rem;
+  }
 }
 
 .product-box-carousel-section__subtitle {
-    text-align: left;
-    font-size: 19px;
-    font-family: var(--primary-font-family);
-    color: #325956;
-    font-weight: 400px;
-    margin: 15px;
-    padding: 0 15px;
-    letter-spacing: 1px;
+  text-align: left;
+  font-size: 19px;
+  font-family: var(--primary-font-family);
+  color: var(--products-box-subtitle-color);
+  font-weight: 400px;
+  margin: 15px;
+  padding: 0 15px;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 770px) {
-    .product-box-carousel-section__subtitle {
-        text-align: center;
-    }
+  .product-box-carousel-section__subtitle {
+    text-align: center;
+  }
 }
 
 .products-carousel__slide {
-    display: flex;
-    max-width: 800px;
-    flex-direction: column;
-    position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-right: 24px;
-    padding: 0;
-    gap: 5px;
-    background-color: #f9f3ee;
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 24px;
+  padding: 0;
+  gap: 5px;
+  background-color: var(--products-box-slide-bg-color);
 }
 
 @media (min-width: 770px) {
-    .products-carousel__slide {
-        flex-direction: row;
-        margin-left: 100px;
-        margin-right: 100px;
-        max-width: 800px;
-    }
+  .products-carousel__slide {
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 800px;
+  }
 }
 
 @media (min-width: 600) {
-    .products-carousel__slide {
-        flex-direction: row;
-        margin-left: 100px;
-        margin-right: 100px;
-        max-width: 500px;
-    }
+  .products-carousel__slide {
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 500px;
+  }
 }
 
 .products-carousel__slide-image {
-    padding: 0;
-    width: 50%;
+  padding: 0;
+  width: 50%;
 }
 
 .products-carousel__image {
-    width: 332px;
-    height: auto;
-    object-fit: cover;
+  width: 332px;
+  height: auto;
+  object-fit: cover;
 }
 
 @media (min-width: 770px) {
-    .products-carousel__image {
-        padding: 0;
-        width: 100%;
-        width: 350px;
-        height: auto;
-    }
+  .products-carousel__image {
+    padding: 0;
+    width: 100%;
+    width: 350px;
+    height: auto;
+  }
 }
 
 @media (min-width: 600px) {
-    .products-carousel__image {
-        padding: 0;
-        width: 100%;
-        width: 294px;
-        height: auto;
-    }
+  .products-carousel__image {
+    padding: 0;
+    width: 100%;
+    width: 294px;
+    height: auto;
+  }
 }
 
 .products-carousel__slide-text {
-    text-align: justify;
-    padding: 20px;
+  text-align: justify;
+  padding: 20px;
 }
 
 .products-carousel__slide-text-title {
-    color: rgb(199, 150, 77);
-    font-size: 12px;
-    font-family: var(--secondary-font-family);
-    letter-spacing: 1px;
+  color: var(--products-box-carousel-text-title-color);
+  font-size: 12px;
+  font-family: var(--secondary-font-family);
+  letter-spacing: 1px;
 }
 
 .products-carousel__slide-text-product-name {
-    font-size: 24px;
-    font-family: var(--secondary-font-family);
-    color: #325956;
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+  color: var(--products-box-carousel-text-product-name-color);
 }
 
 .products-carousel__slide-text-product-description {
-    font-size: 17px;
-    color: var(--primary-font-family);
-    color: rgb(102, 130, 128);
+  font-size: 17px;
+  color: var(--primary-font-family);
+  color: var(--products-box-carousel-text-product-description-color);
 }
 
 .products-carousel__characteristics {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 70px;
-    column-gap: 50px;
-    padding: 15px 15px 15px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 70px;
+  column-gap: 50px;
+  padding: 15px 15px 15px 0;
 }
 
 @media (min-width: 770px) {
-    .products-carousel__characteristics {
-        grid-template-columns: 100px 100px;
-        grid-template-rows: 70px 70px;
-    }
+  .products-carousel__characteristics {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 70px 70px;
+  }
 }
 
 .products-carousel__characteristic-name {
-    font-size: 0.9375rem;
-    font-family: var(--primary-font-family);
-    color: rgb(199, 150, 77);
+  font-size: 0.9375rem;
+  font-family: var(--primary-font-family);
+  color: var(--products-box-carousel-text-charact-name-color);
 }
 
 .products-carousel__characteristic-description {
-    font-family: var(--primary-font-family);
-    font-size: 1.0625rem;
-    font-style: italic;
-    color: rgb(102, 130, 128);
+  font-family: var(--primary-font-family);
+  font-size: 1.0625rem;
+  font-style: italic;
+  color: var(--products-box-carousel-text-charact-description-color);
 }
 
 .products-carousel__accordion-summary {
-    font-family: var(--primary-font-family);
-    color: rgb(199, 150, 77);
-    font-size: 0.875rem;
-    font-weight: bold;
+  font-family: var(--primary-font-family);
+  color: var(--products-box-carousel-accordion-summury);
+  font-size: 0.875rem;
+  font-weight: bold;
 }
 
 .products-carousel__accordion-instructions,
 .products-carousel__accordion-ingridients {
-    font-style: italic;
-    color: rgb(102, 130, 128);
+  font-style: italic;
+  color: var(--products-box-carousel-accordion-text);
 }
