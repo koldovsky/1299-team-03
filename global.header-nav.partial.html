@@ -13,14 +13,28 @@
     data-hx-swap="outerHTML"
     data-hx-get="global.nav-menu.partial.html"
   ></ul>
-  <div class="header__order">
-    <button class="header__order-button">Order Shine Box Now</button>
-  </div>
+  <div
+    data-hx-trigger="load"
+    data-hx-swap="outerHTML"
+    data-hx-get="global.header-order-button.partial.html"
+  ></div>
   <div class="header__burger">
     <img
       class="header__burger-icon"
       src="./img/global/burger-menu-icon.svg"
       alt="burger menu icon"
     />
+  </div>
+  <div class="header__dropdown">
+    <ul
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.nav-menu.partial.html"
+    ></ul>
+    <div
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.header-order-button.partial.html"
+    ></div>
   </div>
 </nav>

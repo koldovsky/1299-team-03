@@ -1,9 +1,10 @@
-@import "global.css";
-@import "global.header-nav.css";
-@import "global.nav-menu.css";
-@import "global.basket.css";
-@import "contacts.contact-info.css";
-@import "contacts.header-hero.css";
+@import url(global.css);
+@import url(global.header-nav.css);
+@import url(global.nav-menu.css);
+@import url(global.basket.css);
+@import url(./global.header-order-button.css);
+@import url(contacts.contact-info.css);
+@import url(contacts.header-hero.css);
 
 /* body {
   font-family: var(--primary-font-family);
@@ -22,10 +23,10 @@ a {
 
 .contacts__body {
   background-color: var(--contacts-body-background-color);
-  color:rgb(102,130,128)
+  color: rgb(102, 130, 128);
 }
 
 .contacts__body a {
   text-decoration: none;
-  color:rgb(102,130,128)
+  color: rgb(102, 130, 128);
 }
