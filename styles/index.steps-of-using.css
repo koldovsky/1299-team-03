@@ -1,9 +1,77 @@
 .steps-of-using {
-    background-color: #f9f3ee;
-    display: flex;
+  background-color: #f9f3ee;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
+@media (min-width: 770px) {
+  .steps-of-using {
+    background-color: #f9f3ee;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}
+.steps-of-using__step {
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.step-box-1 {
+  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645ca20481955a000f73b14c?nowebp);
+}
+
+.step-box-2 {
+  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb54181955a000f73c820?nowebp);
+}
+
+.step-box-3 {
+  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb54239e0fa000fed19f5?nowebp);
+}
+.step-box-4 {
+  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb5ff81955a000f73c962?nowebp);
+}
+
+.steps-of-using__title {
+  font-family: var(--secondary-font-family);
+  font-size: 1.375rem;
+}
+.step-title1 {
+  color: #a39135;
+}
+.step-title2 {
+  color: var(--primary-900);
+}
+.step-title3 {
+  color: #d0943b;
+}
+.step-title4 {
+  color: var(--pink-700);
+}
+
+.steps-of-using__description {
+  color: #9f7ba0;
+  font-family: var(--primary-font-family);
+  font-size: 1.0625rem;
+}
+.step-description1 {
+  color: #b8af5b;
+}
+.step-description2 {
+  color: var(--primary-700);
+}
+.step-description3 {
+  color: #d7a55c;
+}
+.step-description4 {
+  color: #9f7ba0;
+}
 .steps-of-using__image {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
