@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--cart-overlay-bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 60%;
     max-width: 600px;
-    background: #f1e6e1;
+    background: var(--cart-bg-color);
     padding: 16px;
 
     .shopping-cart__header {
@@ -22,14 +22,14 @@
 
       .shopping-cart__title {
         font-size: 22px;
-        color: #325956;
+        color: var(--cart-header-color);
       }
 
       .shopping-cart__close-button {
         background: none;
         border: none;
         font-size: 24px;
-        color: #333;
+        color: var(--cart-header-color);
         cursor: pointer;
         transition: background-color 0.3s;
       }
@@ -45,6 +45,7 @@
         .shopping-cart__product-header {
           font-size: 12px;
           margin-bottom: 16px;
+          color: var(--cart-header-color);
         }
 
         .shopping-cart__product-info {
@@ -58,6 +59,8 @@
 
           .shopping-cart__product-name {
             font-weight: bold;
+            color: var(--cart-header-color);
+            font-size: 17px;
           }
 
           .shopping-cart__quantity-input {
@@ -65,10 +68,15 @@
             width: 75px;
             height: 30px;
             position: relative;
+            border-color: var(--cart-quantity-input-border-color);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px;
           }
 
           .shopping-cart__product-price {
-            font-size: 18px;
+            font-size: 17px;
+            color: var(--cart-header-color);
           }
         }
       }
@@ -80,15 +88,19 @@
 
         .shopping-cart__promo-link {
           font-size: 17px;
+          color: var(--cart-header-color);
         }
 
         .shopping-cart__total {
           .shopping-cart__total-label {
             font-size: 18px;
+            color: var(--cart-header-color);
+            font-weight: bold;
           }
 
           .shopping-cart__total-amount {
             font-size: 18px;
+            color: var(--cart-header-color);
           }
         }
       }
@@ -101,6 +113,7 @@
         .shopping-cart__form-header {
           margin-bottom: 8px;
           font-size: 12px;
+          color: var(--cart-header-color); 
         }
 
         .shopping-cart__form-group {
@@ -108,13 +121,13 @@
           margin: 16px 0 24px;
           flex-direction: column;
 
-          .shopping-cart_form-label {
+          .shopping-cart__form-label {
             font-size: 17px;
             margin-top: 12px;
-
+            color: var(--cart-header-color);
           }
           .required {
-            color: #cc3833;
+            color: var(--cart-input-label-required-color);
           }
           
           .shopping-cart__form-input {
@@ -123,13 +136,23 @@
             padding: 15px 26px;
             border-radius: 3px;
             border-style: none;
-            background: #f7efea;
+            background: var(--cart-input-bg-color);
+          }
+
+          .shopping-cart__form-input::placeholder {
+            color: var(--cart-input-placeholder-color);
+          }
+
+          .shopping-cart__form-input:focus {
+            outline-color:  var(--cart-input-focus-outline-color);
           }
 
           .shopping-cart__form-textarea {
             height: 100px;
             resize: none;
+            color: var(--cart-header-color);
           }
+
         }
 
         .shopping-cart__form-footer {
@@ -141,8 +164,14 @@
             height: 50px;
             width: 180px;
             border-style: none;
-            background-color: darkgreen;
-            color: white;
+            background-color: var(--cart-header-color);
+            color: var(--cart-bg-color);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+
+          .shopping-cart__submit:hover {
+            background-color: var(--cart-button-hover-color);
           }
         }
       }
