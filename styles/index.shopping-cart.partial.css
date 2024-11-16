@@ -15,10 +15,6 @@
     background: #f1e6e1;
     padding: 16px;
 
-    h3 {
-      font-size: 12px;
-    }
-
     .shopping-cart__header {
       display: flex;
       justify-content: space-between;
@@ -47,6 +43,7 @@
         padding-top: 24px;
 
         .shopping-cart__product-header {
+          font-size: 12px;
           margin-bottom: 16px;
         }
 
@@ -103,6 +100,7 @@
 
         .shopping-cart__form-header {
           margin-bottom: 8px;
+          font-size: 12px;
         }
 
         .shopping-cart__form-group {
@@ -110,15 +108,15 @@
           margin: 16px 0 24px;
           flex-direction: column;
 
-          span {
-            color: #cc3833;
-          }
-
           .shopping-cart_form-label {
             font-size: 17px;
             margin-top: 12px;
-          }
 
+          }
+          .required {
+            color: #cc3833;
+          }
+          
           .shopping-cart__form-input {
             height: 50px;
             margin-top: 12px;
