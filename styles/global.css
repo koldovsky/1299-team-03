@@ -109,6 +109,7 @@
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;
   --default-font-family: "Times New Roman", Times, serif;
+  --partner-font-family: inherit;
   
   
   font-family: var(--primary-font-family);
