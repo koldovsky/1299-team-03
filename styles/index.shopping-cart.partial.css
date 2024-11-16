@@ -22,6 +22,7 @@
 
       .shopping-cart__title {
         font-size: 22px;
+        font-family: var(--secondary-font-family);
         color: var(--cart-header-color);
       }
 
@@ -43,6 +44,7 @@
         padding-top: 24px;
 
         .shopping-cart__product-header {
+          font-family: var(--primary-font-family);
           font-size: 12px;
           margin-bottom: 16px;
           color: var(--cart-header-color);
@@ -59,6 +61,7 @@
 
           .shopping-cart__product-name {
             font-weight: bold;
+            font-family: var(--primary-font-family);
             color: var(--cart-header-color);
             font-size: 17px;
           }
@@ -76,6 +79,7 @@
 
           .shopping-cart__product-price {
             font-size: 17px;
+            font-family: var(--primary-font-family);
             color: var(--cart-header-color);
           }
         }
@@ -88,18 +92,22 @@
 
         .shopping-cart__promo-link {
           font-size: 17px;
+          font-family: var(--primary-font-family);
           color: var(--cart-header-color);
         }
 
         .shopping-cart__total {
           .shopping-cart__total-label {
             font-size: 18px;
+            font-weight: 700;
+            font-family: var(--primary-font-family);
             color: var(--cart-header-color);
-            font-weight: bold;
           }
 
           .shopping-cart__total-amount {
             font-size: 18px;
+            font-weight: 700;
+            font-family: var(--primary-font-family);
             color: var(--cart-header-color);
           }
         }
@@ -111,8 +119,10 @@
         flex-direction: column;
 
         .shopping-cart__form-header {
+          font-family: var(--primary-font-family);
           margin-bottom: 8px;
           font-size: 12px;
+          font-family: var(--primary-font-family);
           color: var(--cart-header-color); 
         }
 
@@ -140,6 +150,7 @@
           }
 
           .shopping-cart__form-input::placeholder {
+            font-family: var(--primary-font-family);
             color: var(--cart-input-placeholder-color);
           }
 
@@ -161,6 +172,7 @@
 
           .shopping-cart__submit {
             font-size: 16px;
+            font-family: var(--primary-font-family);
             height: 50px;
             width: 180px;
             border-style: none;
