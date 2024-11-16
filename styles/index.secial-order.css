@@ -1,0 +1,108 @@
+.order-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  background-color: var(--pink-400);
+  padding: 15px;
+  font-size: 19px;
+  font-family: var(--primary-font-family);
+}
+.order-links a span {
+  color: var(--pink-500);
+  font-weight: 500;
+  opacity: 0.7;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.order-links a {
+  color: var(--pink-500);
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* Загальний стиль блоку */
+/* General styles for the section */
+.special-order {
+    background-color: #f5cbe3; /* Light pink background */
+    padding: 20px 40px; /* Padding around the content */
+    display: flex; /* Flex layout for larger screens */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Vertically center the content */
+    font-family: var(--primary-font-family);
+    padding: 95px; /* Clean font for the text */
+    gap: 40px;
+
+  }
+  
+  /* Title styling */
+  .special-order__title {
+    font-weight: 300;
+    color: #802a89; /* Purple color for text */
+    font-size: 32px; /* Size for the title text */
+    margin: 0; /* Remove default margins */
+    text-align: center; /* Center the text on smaller screens */
+  }
+  
+  /* Highlighted price styling */
+  .special-order-price{
+    font-weight: bold; /* Bold for emphasis */
+  }
+  
+  /* Description styling */
+  .special-order__description {
+    color: #9c3e94; /* Slightly lighter purple for description */
+    font-size: 21px; /* Font size for description text */
+    margin-top: 10px; /* Space between title and description */
+    text-align: center; /* Center the text on smaller screens */
+  }
+  
+  /* Button styling */
+  .special-order__button {
+    background-color: #802a89; /* Purple background */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 14px; /* Font size for the button */
+    font-family: var(--primary-font-family);
+    font-weight: bold; /* Make text bold */
+    display: inline-block; /* Ensure button takes up content size */
+    margin-top: 20px; /* Add space when stacked */
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth hover effect */
+    font-weight: 600;
+  }
+  
+  /* Button hover effect */
+  .special-order__button:hover {
+    background-color: #6c2270; /* Darker purple on hover */
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 766px) {
+    .order-links{
+    opacity: 0;
+    }
+
+    .special-order {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center all items horizontally */
+      text-align: center; /* Center align the text */
+    }
+  
+    .special-order__title {
+      font-size: 22px; /* Slightly smaller title for mobile */
+    }
+  
+    .special-order__description {
+      margin-top: 15px; /* Add space between elements */
+      font-size: 14px; /* Slightly smaller description font */
+    }
+  
+    .special-order__button {
+      margin-top: 20px; /* Add space above button */
+    }
+  }
+  

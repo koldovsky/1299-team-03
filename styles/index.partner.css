@@ -18,15 +18,15 @@
 .partner-title {
   font-size: 2rem;
   color: #3d5b44;
-  white-space: nowrap;
-  font-family: var(--partner-font-family);
+  font-family: var(--secondary-font-family);
   font-weight: 400;
 }
 
 .partner-description {
   font-size: 1.1rem;
   color: #5e7761;
-  white-space: nowrap;
+  
+  font-family: var(--primary-font-family);
 }
 .description-underline {
   color: inherit;
