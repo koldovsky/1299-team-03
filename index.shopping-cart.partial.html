@@ -1,5 +1,5 @@
 <style>
-  @import url(styles/index.shopping-cart.partial.css);
+  @import url(styles/index.css);
 </style>
 <div class="shopping-cart-container">
   <div class="shopping-cart">
@@ -26,6 +26,13 @@
             value="1"
           />
           <p class="shopping-cart__product-price">$299.00</p>
+          <button class="shopping-cart__remove-button">
+            <img
+              class="shopping-cart__remove-icon"
+              src="/img/index/shopping-cart/shopping-cart-remove-button.svg"
+              alt="Remove"
+            />
+          </button>
         </div>
       </div>
       <div class="shopping-cart__summary">
@@ -39,7 +46,7 @@
         <h3 class="shopping-cart__form-header">Place an order</h3>
         <div class="shopping-cart__form-group">
           <label class="shopping-cart__form-label" for="name"
-            >Name <span>*</span></label
+            >Name <span class="required">*</span></label
           >
           <input
             type="text"
@@ -51,7 +58,7 @@
         </div>
         <div class="shopping-cart__form-group">
           <label class="shopping-cart__form-label" for="email"
-            >Email <span>*</span></label
+            >Email <span class="required">*</span></label
           >
           <input
             type="email"
@@ -63,7 +70,7 @@
         </div>
         <div class="shopping-cart__form-group">
           <label class="shopping-cart__form-label" for="phone"
-            >Phone <span>*</span></label
+            >Phone <span class="required">*</span></label
           >
           <input
             type="tel"

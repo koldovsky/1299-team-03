@@ -8,33 +8,28 @@
       />
     </a>
   </div>
-  <ul
-    data-hx-trigger="load"
-    data-hx-swap="outerHTML"
-    data-hx-get="global.nav-menu.partial.html"
-  ></ul>
+  <ul class="menu">
+    <li class="menu__item">
+      <a class="menu__item-link" href="./">About</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__item-link" href="#benefits" data-proofer-ignore
+        >Benefits</a
+      >
+    </li>
+    <li class="menu__item">
+      <a class="menu__item-link" href="./">Testimonials</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__item-link" href="./contacts.html">Contacts</a>
+    </li>
+  </ul>
   <div
     data-hx-trigger="load"
     data-hx-swap="outerHTML"
     data-hx-get="global.header-order-button.partial.html"
   ></div>
   <div class="header__burger">
-    <img
-      class="header__burger-icon"
-      src="./img/global/burger-menu-icon.svg"
-      alt="burger menu icon"
-    />
-  </div>
-  <div class="header__dropdown">
-    <ul
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.nav-menu.partial.html"
-    ></ul>
-    <div
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.header-order-button.partial.html"
-    ></div>
+    <span class="header__burger-icon"></span>
   </div>
 </nav>

@@ -40,9 +40,17 @@
   --yellow-200: #a39135;
   --yellow-100: #f6f2d3;
 
+  --cream-100: #f7efea;
+
+  --blue-500: #34b4fb;
+
+  --red-500: #d04033;
+
   /* -------- VARIABLES -------- */
 
   --header-bg-color: var(--primary-300);
+  --header-burger-color: var(--primary-900);
+  --header-burger-hover-color: var(--primary-700);
   --header-order-button-bg-color: var(--primary-900);
   --header-order-button-bg-hover-color: var(--primary-950);
   --header-nav-menu-text-color: var(--primary-800);
@@ -89,6 +97,16 @@
   --products-box-carousel-accordion-summury: #c7964d;
   --products-box-carousel-accordion-text: var(--primary-700);
 
+  --cart-bg-color: var(--pink-200);
+  --cart-overlay-bg-color: rgba(0, 0, 0, 0.5);
+  --cart-header-color: var(--primary-900);
+  --cart-button-hover-color: var(--primary-950);
+  --cart-quantity-input-border-color: var(--primary-200);
+  --cart-input-label-required-color: var(--red-500);
+  --cart-input-placeholder-color: var(--primary-300);
+  --cart-input-bg-color: var(--cream-100);
+  --cart-input-focus-outline-color: var(--blue-500);
+
   --primary-font-family: "Chivo", sans-serif;
   --secondary-font-family: "Istok Web", sans-serif;
   --default-font-family: "Times New Roman", Times, serif;
@@ -105,4 +123,7 @@ img {
 .container {
   max-width: 1200px;
   margin: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
 }

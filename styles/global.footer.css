@@ -1,0 +1,35 @@
+.footer {
+  background-color: #c8d0b1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  block-size: auto;
+}
+
+.footer__top--privacy--logo {
+  display: block;
+  width: 160px;
+}
+
+.footer__socials--links--list {
+  display: inline-flex;
+}
+
+.footer__menu--navigation--list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__bottom--line {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+hr {
+  border-color: rgb(170 184 159);
+}
