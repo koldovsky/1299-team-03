@@ -28,6 +28,11 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return totalGoals;
 }
 
+//Rita Shchukina
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals+copaDelReyGoals+championsLeagueGoals;
+}
+
 // Make negative
 // https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 
@@ -70,6 +75,14 @@ function makeNegative(number) {
   } else {
     return number;
   }
+}
+
+//Rita Shchukina
+function makeNegative(num) {
+  if (num > 0){
+    return num*(-1);
+  }
+  return num;
 }
 
 //Game Move
