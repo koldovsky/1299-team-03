@@ -63,7 +63,7 @@ function makeNegative(num) {
   }
 }
 
-//Bohdan Pelenskyi
+//Bohdan Pelenskyi 
 function makeNegative(number) {
   if (number > 0) {
     return -number;
