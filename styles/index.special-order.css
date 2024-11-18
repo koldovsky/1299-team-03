@@ -80,7 +80,7 @@
 
   @media (max-width: 766px) {
     .order-links{
-    opacity: 0;
+    display: none;
     }
 
     .special-order {
