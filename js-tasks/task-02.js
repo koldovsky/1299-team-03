@@ -11,6 +11,13 @@ function stringToArray(string) {
 function stringToArray(string) {
   return string.split(" ");
 }
+
+//Bohdan Pelenskyi
+
+function stringToArray(string){
+  return string.split(' ');
+}
+
 //DNA to RNA Conversion
 //https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 
@@ -29,6 +36,8 @@ function DNAtoRNA(dna) {
 function DNAtoRNA(dna) {
   return dna.replace(/T/g, 'U');
 }
+
+//Bohdan Pelenskyi
 
 //Find Maximum and Minimum Values of a List
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
