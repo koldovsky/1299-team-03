@@ -6,6 +6,11 @@ function stringToArray(string) {
   return string.split(" ");
 }
 
+//Pavlo Onyshko
+
+function stringToArray(string) {
+  return string.split(" ");
+}
 //DNA to RNA Conversion
 //https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
 
@@ -17,6 +22,12 @@ function DNAtoRNA(dna) {
 // Sydorov Stas
 function DNAtoRNA(dna) {
   return dna.split("").map(el => el === "T" ? "U" : el).join("")
+}
+
+//Pavlo Onyshko
+
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, 'U');
 }
 
 //Find Maximum and Minimum Values of a List
@@ -52,10 +63,32 @@ var min = function(list){
 var max = function(list){
   return Math.max(...list)
 }
+
+// Pavlo Onyshko
+
+var min = function(list){
+  return Math.min(...list);
+}
+
+var max = function(list){
+  return Math.max(...list);
+}
+
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 
 // Sydorov Stas
 const min = (arr, toReturn) => toReturn === "value" ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
+
+// Pavlo Onyshko
+
+function min(arr, toReturn) {
+  var minValue = Math.min(...arr);
+  if (toReturn === 'value') {
+      return minValue;
+  } else if (toReturn === 'index') {
+      return arr.indexOf(minValue);
+  }
+}
 
 //extra
 
