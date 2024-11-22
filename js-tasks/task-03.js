@@ -26,59 +26,59 @@ function giveMeFive(obj) {
 
 // Sydorov Stas
 function buildFun(n) {
-    const result = [];
+  const result = [];
 
-    const closure = num => result.push(() => num);
+  const closure = (num) => result.push(() => num);
 
-    for (let i = 0; i < n; i++) {
-      closure(i);
-    }
-
-    return result;
+  for (let i = 0; i < n; i++) {
+    closure(i);
   }
 
-  // https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
+  return result;
+}
 
-  // Sydorov Stas
-  class Shark extends Animal {
-    constructor(name, age, status) {
-      super(name, age);
+// https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
 
-      this.status = status;
-      this.species = "shark";
-      this.legs = 0;
-    }
+// Sydorov Stas
+class Shark extends Animal {
+  constructor(name, age, status) {
+    super(name, age);
 
-    introduce() {
-      return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
-    }
+    this.status = status;
+    this.species = "shark";
+    this.legs = 0;
   }
 
-  class Cat extends Animal {
-    constructor(name, age, status) {
-      super(name, age, status);
+  introduce() {
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+  }
+}
 
-      this.status = status;
-      this.species = "cat";
-      this.legs = 4;
-    }
+class Cat extends Animal {
+  constructor(name, age, status) {
+    super(name, age, status);
 
-    introduce() {
-      return `Hello, my name is ${this.name} and I am ${this.age} years old.  Meow meow!`;
-    }
+    this.status = status;
+    this.species = "cat";
+    this.legs = 4;
   }
 
-  class Dog extends Animal {
-    constructor(name, age, status, masterName) {
-      super(name, age, status);
-
-      this.status = status;
-      this.species = "dog";
-      this.legs = 4;
-      this.masterName = masterName;
-    }
-
-    greetMaster() {
-      return `Hello ${this.masterName}`;
-    }
+  introduce() {
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.  Meow meow!`;
   }
+}
+
+class Dog extends Animal {
+  constructor(name, age, status, masterName) {
+    super(name, age, status);
+
+    this.status = status;
+    this.species = "dog";
+    this.legs = 4;
+    this.masterName = masterName;
+  }
+
+  greetMaster() {
+    return `Hello ${this.masterName}`;
+  }
+}
