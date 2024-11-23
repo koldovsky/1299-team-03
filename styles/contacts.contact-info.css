@@ -6,7 +6,7 @@
   color: #668280;
   font-size: 17px;
 
-  h2 {
+  .contacts__subtitle {
     color: rgb(50, 89, 86);
     font-size: 34px;
     font-weight: 400;

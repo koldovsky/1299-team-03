@@ -11,19 +11,19 @@
     font-weight: 400;
   }
 
-  nav {
+  .contacts__menu {
     margin-top: 25px;
   }
 
-  a,
-  nav {
+  
+  .contacts__menu {
     text-decoration: none;
     color: rgba(249, 243, 238, 0.53);
     font-size: 12px;
     letter-spacing: 1.2px;
   }
 
-  a:last-child {
+  .contacts__menu a:last-child {
     text-decoration: underline;
     font-weight: bold;
   }
