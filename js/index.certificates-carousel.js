@@ -12,7 +12,7 @@ function renderCarousel() {
   );
   slidesContainer.innerHTML = slides[currIdx];
   if (window.matchMedia("(min-width: 993px)").matches) {
-    const secondSlideIdx = currIdx >= slides.length ? 0 : currIdx + 1;
+    const secondSlideIdx = currIdx + 1 >= slides.length ? 0 : currIdx + 1;
     slidesContainer.innerHTML += slides[secondSlideIdx];
     if (window.matchMedia("(max-width: 992px)").matches) {
       const thirdSlideIdx =
@@ -31,8 +31,6 @@ function prevSlide() {
   currIdx = currIdx - 1 < 0 ? slides.length - 1 : currIdx - 1;
   renderCarousel();
 }
-
-// setInterval(nextSlide, 3000);
 
 renderCarousel();
 
