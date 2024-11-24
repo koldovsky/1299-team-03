@@ -55,3 +55,18 @@
   color: rgb(50, 89, 86);
   letter-spacing: 1.2px;
 }
+
+.contact-form {
+  margin-top: 12px;
+  background: rgb(243, 232, 226);
+
+  .contact-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-form__input {
+    height: 50px;
+  }
+}
