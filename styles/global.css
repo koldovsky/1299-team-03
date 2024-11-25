@@ -97,6 +97,16 @@
   --products-box-carousel-accordion-summury: #c7964d;
   --products-box-carousel-accordion-text: var(--primary-700);
 
+  --steps-of-using-bg-color:var(--pink-200);
+  --steps-of-using-title-brown: #a39135;
+  --steps-of-using-title-green:var(--primary-900);
+  --steps-of-using-title-orange:#d0943b;
+  --steps-of-using-title-purple: var(--pink-700);
+  --steps-of-using-description-brown:#b8af5b;
+  --steps-of-using-description-green:var(--primary-700);
+  --steps-of-using-description-orange:#d7a55c;
+  --steps-of-using-description-purple: #9f7ba0;
+
   --cart-bg-color: var(--pink-200);
   --cart-overlay-bg-color: rgba(0, 0, 0, 0.5);
   --cart-header-color: var(--primary-900);

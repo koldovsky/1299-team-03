@@ -1,5 +1,5 @@
 .steps-of-using {
-  background-color: #f9f3ee;
+  background-color: var(--steps-of-using-bg-color);
   display: grid;
   gap: 20px;
   padding: 20px;
@@ -45,34 +45,33 @@
   font-size: 1.375rem;
 }
 .step-title1 {
-  color: #a39135;
+  color: var(--steps-of-using-title-brown);
 }
 .step-title2 {
-  color: var(--primary-900);
+  color: var(--steps-of-using-title-green);
 }
 .step-title3 {
-  color: #d0943b;
+  color: var(--steps-of-using-title-orange);
 }
 .step-title4 {
-  color: var(--pink-700);
+  color: var(--steps-of-using-title-purple);
 }
 
 .steps-of-using__description {
-  color: #9f7ba0;
   font-family: var(--primary-font-family);
   font-size: 1.0625rem;
 }
 .step-description1 {
-  color: #b8af5b;
+  color: var(--steps-of-using-description-brown);
 }
 .step-description2 {
-  color: var(--primary-700);
+  color: var(--steps-of-using-description-green);
 }
 .step-description3 {
-  color: #d7a55c;
+  color: var(--steps-of-using-description-orange);
 }
 .step-description4 {
-  color: #9f7ba0;
+  color: var(--steps-of-using-description-purple);
 }
 .steps-of-using__image {
   width: 70px;
