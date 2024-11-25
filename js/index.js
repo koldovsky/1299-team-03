@@ -3,6 +3,7 @@ function init() {
   import("./index.certificates-carousel.js");
   import("./index.special-order.js");
   import("./index.partner.js");
+  import("./index.products-box-carousel.js")
 }
 
 const totalPartials = document.querySelectorAll(
