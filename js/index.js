@@ -4,6 +4,7 @@ function init() {
   import("./index.special-order.js");
   import("./index.partner.js");
   import("./index.products-box-carousel-cards.js");
+  import("./index.shopping-cart.js");
 }
 
 const totalPartials = document.querySelectorAll(
