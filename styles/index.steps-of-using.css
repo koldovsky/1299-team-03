@@ -7,7 +7,6 @@
 
 @media (min-width: 480px) {
   .steps-of-using {
-    background-color: #f9f3ee;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
@@ -15,7 +14,6 @@
 }
 @media (min-width: 770px) {
   .steps-of-using {
-    background-color: #f9f3ee;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
@@ -28,18 +26,18 @@
 }
 
 .step-box-1 {
-  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645ca20481955a000f73b14c?nowebp);
+  background-image: url("../img/index/steps-of-using/step-box1.svg");
 }
 
 .step-box-2 {
-  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb54181955a000f73c820?nowebp);
+  background-image: url("../img/index/steps-of-using/step-box2.svg");
 }
 
 .step-box-3 {
-  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb54239e0fa000fed19f5?nowebp);
+  background-image: url("../img/index/steps-of-using/step-box3.svg");
 }
 .step-box-4 {
-  background-image: url(https://res2.weblium.site/res/64535a7d01839b000d982ba6/645cb5ff81955a000f73c962?nowebp);
+  background-image: url("../img/index/steps-of-using/step-box4.svg");
 }
 
 .steps-of-using__title {
