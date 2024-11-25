@@ -159,7 +159,7 @@ renderProducts(products);
 // renderSlides();
 
 // function prevSlide(){
-//   currIdx = currIdx - 1 < 0 ? slides.length - 1 ? 0 : currIdx - 1;
+//   currIdx = currIdx - 1 < 0 ? slides.length - 1 : currIdx - 1;
 //     renderSlides();
 // }
 
