@@ -5,10 +5,19 @@
   width: 100%;
   height: 100%;
   background-color: var(--cart-overlay-bg-color);
-  z-index: 9999;
+  z-index: 15;
   display: none;
   justify-content: center;
   align-items: center;
+
+  .shopping-cart__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+  }
 
   .shopping-cart {
     display: flex;
@@ -17,6 +26,7 @@
     max-width: 600px;
     background: var(--cart-bg-color);
     padding: 16px;
+    z-index: 10;
 
     .shopping-cart__header {
       display: flex;
