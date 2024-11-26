@@ -42,12 +42,12 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  min-height: 32px;
 }
 .certificates__carousel-picture {
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
-  min-height: 32px;
 }
 .certificates__carousel-picture-slides {
   min-height: 40px;
