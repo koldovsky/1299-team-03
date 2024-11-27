@@ -9,6 +9,7 @@ const totalAmount = document.querySelector(".shopping-cart__total-amount");
 const headerOrderButton = document.querySelector(".header__order-button");
 const cart = document.querySelector(".shopping-cart-container");
 const basket = document.querySelector(".basket-container");
+const body = document.querySelector("body");
 
 const unitPrice = 299;
 let productCount = 0;
@@ -32,16 +33,18 @@ function setProducts({ target }) {
 
 function showCard() {
   cart.style.display = "flex";
+  body.style.overflow = "hidden";
 }
 
 function hideCard() {
   cartContainer.style.display = "none";
+  body.style.overflow = "auto";
 }
 
 function showCardAndAddProduct() {
   cart.style.display = "flex";
   productCount++;
-
+  body.style.overflow = "hidden";
   renderBasket(productCount);
 }
 
