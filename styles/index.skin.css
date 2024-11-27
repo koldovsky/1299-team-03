@@ -1,0 +1,44 @@
+.skin {
+  padding-top: 120px;
+  background-color: var(--skin-bg-color);
+
+  .skin__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .skin__header-title {
+      padding: 0 30px;
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 52.8px;
+      color: var(--skin-title-color);
+      font-family: var(--secondary-font-family);
+    }
+
+    .skin__header-comment-wrapper {
+      padding-top: 8px;
+      display: flex;
+
+      .skin__header-comment--image {
+        flex-shrink: 0;
+      }
+
+      .skin__header-comment--text {
+        font-style: italic;
+        padding-left: 15px;
+        line-height: 25.5px;
+        color: var(--skin-content-color);
+      }
+    }
+
+    .skin__header-author {
+      font-size: 12px;
+      text-align: end;
+      padding-top: 20px;
+      line-height: 17px;
+      letter-spacing: 1.2px;
+      font-family: var(--secondary-font-family);
+      color: var(--skin-title-color);
+    }
+  }
+}

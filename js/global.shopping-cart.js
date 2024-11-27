@@ -9,7 +9,6 @@ const totalAmount = document.querySelector(".shopping-cart__total-amount");
 const orderButtons = document.querySelectorAll(".order-button");
 const cart = document.querySelector(".shopping-cart-container");
 const basket = document.querySelector(".basket-container");
-console.log(orderButtons);
 
 const unitPrice = 299;
 let productCount = 0;
