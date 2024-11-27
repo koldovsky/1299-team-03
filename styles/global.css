@@ -77,6 +77,10 @@
   --basket-counter-bg-color: var(--primary-200);
   --basket-box-shadow-color: var(--primary-970);
 
+  --skin-bg-color: var(--primary-900);
+  --skin-title-color: var(--primary-200);
+  --skin-content-color: var(--primary-600);
+
   --certificates-bg-color: var(--primary-200);
   --certificates-title-color: var(--primary-900);
   --certificates-countries-color: var(--primary-800);

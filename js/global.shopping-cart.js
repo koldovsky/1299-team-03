@@ -6,7 +6,7 @@ const cartOverlay = document.querySelector(".shopping-cart__overlay");
 const quantityInput = document.querySelector("#product-quantity");
 const productPrice = document.querySelector(".shopping-cart__product-price");
 const totalAmount = document.querySelector(".shopping-cart__total-amount");
-const headerOrderButton = document.querySelector(".header__order-button");
+const orderButtons = document.querySelectorAll(".order-button");
 const cart = document.querySelector(".shopping-cart-container");
 const basket = document.querySelector(".basket-container");
 const body = document.querySelector("body");
@@ -17,7 +17,9 @@ let productCount = 0;
 cartCloseButton.addEventListener("click", hideCard);
 cartOverlay.addEventListener("click", hideCard);
 quantityInput.addEventListener("input", setProducts);
-headerOrderButton.addEventListener("click", showCardAndAddProduct);
+orderButtons.forEach((button) => {
+  button.addEventListener("click", showCardAndAddProduct);
+});
 basket.addEventListener("click", showCard);
 
 function setProducts({ target }) {
