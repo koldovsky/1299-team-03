@@ -5,6 +5,7 @@ function init() {
   import("./index.partner.js");
   import("./index.products-box-carousel-cards.js");
   import("./global.shopping-cart.js");
+  import("./utils.js");
 }
 
 const totalPartials = document.querySelectorAll(

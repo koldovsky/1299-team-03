@@ -1,3 +1,5 @@
+import { formatter } from "./utils.js";
+
 const cartContainer = document.querySelector(".shopping-cart-container");
 const cartCloseButton = document.querySelector(".shopping-cart__close-button");
 const cartOverlay = document.querySelector(".shopping-cart__overlay");
@@ -14,15 +16,8 @@ let productCount = 0;
 cartCloseButton.addEventListener("click", hideCard);
 cartOverlay.addEventListener("click", hideCard);
 quantityInput.addEventListener("input", setProducts);
-
 headerOrderButton.addEventListener("click", showCardAndAddProduct);
 basket.addEventListener("click", showCard);
-
-const formatter = new Intl.NumberFormat("uk-UK", {
-  style: "decimal",
-  minimumFractionDigits: 2,
-  maximumFractionDigits: 2,
-});
 
 function setProducts({ target }) {
   const inputCount = target.value;
