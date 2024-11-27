@@ -20,8 +20,8 @@ headerOrderButton.addEventListener("click", showCardAndAddProduct);
 basket.addEventListener("click", showCard);
 
 function setProducts({ target }) {
-  const inputCount = target.value;
-  const totalPrice = formatter.format(+inputCount * unitPrice);
+  const inputCount = +target.value;
+  const totalPrice = formatter.format(inputCount * unitPrice);
 
   productCount = inputCount;
   productPrice.textContent = `$${totalPrice}USD`;
@@ -46,13 +46,14 @@ function showCardAndAddProduct() {
 }
 
 function renderBasket(count) {
-  if (productCount > 0) {
-    basket.style.visibility = "visible";
-  } else {
-    basket.style.visibility = "hidden";
-  }
+  if (typeof count === "number") {
+    if (count > 0) {
+      basket.style.visibility = "visible";
+    } else {
+      basket.style.visibility = "hidden";
+    }
 
-  basket.innerHTML = `<div class="basket">
+    basket.innerHTML = `<div class="basket">
       <span class="basket__counter">${count > 9 ? "9+" : count}</span>
       <svg
         width="36"
@@ -74,6 +75,7 @@ function renderBasket(count) {
         ></path>
       </svg>
     </div>`;
+  }
 }
 
 renderBasket(productCount);
