@@ -23,6 +23,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 20px;
+  min-height: 620px;
+}
+
+.products__carousel-arrow-left-block,
+.products__carousel-arrow-right-block {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.products__carousel-arrow-left-block {
+  transform: rotate(180deg);
 }
 
 @media (min-width: 770px) {
@@ -60,21 +75,65 @@
   }
 }
 
-.products-carousel{
-  display: grid;
-  grid-template-columns: 100px 1fr 100px;
+.products-carousel {
+  width: 100%;
+  position: relative;
+  /* display: grid; */
+  /* grid-template-columns: 100px 1fr 100px;
   align-items: center;
-  height: 100%;
+  height: 100%; */
+
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    transform: translateY(-50%);
+  }
+
+  .left-arrow {
+    left: -10px;
+  }
+
+  .right-arrow {
+    right: -10px;
+  }
+
+  @media (max-width: 1280px) {
+    .left-arrow,
+    .right-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: var(--products-box-subtitle-color);
+
+      svg {
+        fill: var(--products-box-bg-color);
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .left-arrow {
+      left: 20px;
+    }
+
+    .right-arrow {
+      right: 20px;
+    }
+  }
 }
 
-.products-carousel .left-arrow,
+/* .products-carousel .left-arrow,
 .products-carousel .right-arrow {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  cursor: pointer; 
+  cursor: pointer;
   height: 100%;
-}
+} */
 
 .products-carousel__slide-image {
   width: 100%;
@@ -92,6 +151,7 @@
   text-align: justify;
   padding: 20px;
   margin: 10px;
+  min-height: 620px;
 }
 
 .products-carousel__slide-text-title {
@@ -143,20 +203,18 @@
   color: var(--products-box-carousel-text-charact-description-color);
 }
 
-
 .products-carousel__accordion-content {
   margin-bottom: 10px;
-  border-bottom: 1px solid #e0e0d9; 
+  border-bottom: 1px solid #e0e0d9;
   text-decoration: none;
 }
-
 
 .products-carousel__accordion-summary {
   font-family: var(--primary-font-family);
   color: var(--products-box-carousel-accordion-summury);
   font-size: 0.875rem;
   margin: 20px 0 20px 0;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .products-carousel__accordion-instructions,

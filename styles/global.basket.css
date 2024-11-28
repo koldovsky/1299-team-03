@@ -1,6 +1,6 @@
 .basket {
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 80px;
   right: 30px;
   width: 70px;
