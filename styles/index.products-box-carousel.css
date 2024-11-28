@@ -63,6 +63,17 @@
 .products-carousel{
   display: grid;
   grid-template-columns: 100px 1fr 100px;
+  align-items: center;
+  height: 100%;
+}
+
+.products-carousel .left-arrow,
+.products-carousel .right-arrow {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  cursor: pointer; 
+  height: 100%;
 }
 
 .products-carousel__slide-image {
