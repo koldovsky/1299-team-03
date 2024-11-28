@@ -163,31 +163,4 @@ function renderProduct() {
 
 renderProduct(currentIndex);
 
-//Carousel
 
-// const slides = document.querySelector('.products-carousel__slides-container');
-
-// let currIdx = 0;
-
-// function renderSlides(){
-//      const slidesContainer = document.querySelector('.products-carousel__slides-container');
-//      slidesContainer.innerHTML = slides[currIdx];
-// }
-
-// function nextSlide(){
-//     currIdx = currIdx + 1 >= slides.length ? 0 : currIdx + 1;
-//     renderSlides();
-// }
-
-// renderSlides();
-
-// function prevSlide(){
-//   currIdx = currIdx - 1 < 0 ? slides.length - 1 : currIdx - 1;
-//     renderSlides();
-// }
-
-// const btnNext = document.querySelector('.right-arrow');
-// btnNext.addEventListener('click', nextSlide);
-
-// const btnPrev = document.querySelector('.left-arrow');
-// btnPrev.addEventListener('click', prevSlide);
