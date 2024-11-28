@@ -153,6 +153,32 @@
         }
 
         .shopping-cart__total {
+          display: flex;
+          align-items: center;
+
+          .shopping-cart__total-promo-code {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .shopping-cart__total-promo-code-input {
+              border-radius: 5px;
+              padding: 5px;
+              height: 36px;
+              width: 192px;
+            }
+
+            .shopping-cart__total-promo-code-button {
+              font-size: 14px;
+              font-family: var(--primary-font-family);
+              color: var(--cart-header-color);
+              padding: 0px, 16px;
+              cursor: pointer;
+              height: 36px;
+              width: 58px;
+              border-radius: 5px;
+            }
+          }
           .shopping-cart__total-label {
             font-size: 18px;
             font-weight: 700;
