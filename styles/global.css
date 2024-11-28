@@ -77,6 +77,10 @@
   --basket-counter-bg-color: var(--primary-200);
   --basket-box-shadow-color: var(--primary-970);
 
+  --skin-bg-color: var(--primary-900);
+  --skin-title-color: var(--primary-200);
+  --skin-content-color: var(--primary-600);
+
   --certificates-bg-color: var(--primary-200);
   --certificates-title-color: var(--primary-900);
   --certificates-countries-color: var(--primary-800);
@@ -117,7 +121,7 @@
   --steps-of-using-description-purple: var(--lavender-500);
 
   --cart-bg-color: var(--pink-200);
-  --cart-overlay-bg-color: rgba(0, 0, 0, 0.5);
+  --cart-overlay-bg-color: rgba(0, 0, 0, 0.7);
   --cart-header-color: var(--primary-900);
   --cart-button-hover-color: var(--primary-950);
   --cart-quantity-input-border-color: var(--primary-200);

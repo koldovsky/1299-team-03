@@ -6,7 +6,7 @@
   font-family: var(--secondary-font-family);
 
   .contacts__title {
-    color: rgb(249, 243, 238);
+    color: var(--beige-100);
     font-size: 34px;
     font-weight: 400;
   }
@@ -18,7 +18,7 @@
   
   .contacts__menu {
     text-decoration: none;
-    color: rgba(249, 243, 238, 0.53);
+    color: #f9f3ee87;
     font-size: 12px;
     letter-spacing: 1.2px;
   }

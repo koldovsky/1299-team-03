@@ -98,7 +98,7 @@
   background-color: var(--pink-500);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1038px) {
   .ingredients-container {
     flex-direction: column;
   }

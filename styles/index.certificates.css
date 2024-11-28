@@ -11,6 +11,7 @@
   margin: auto;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
 }
 .certificates__description {
   text-align: left;
@@ -41,7 +42,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  max-width: 100%;
+  min-height: 32px;
 }
 .certificates__carousel-picture {
   display: flex;
@@ -49,17 +50,16 @@
   width: 100%;
 }
 .certificates__carousel-picture-slides {
-  min-height: 100%;
-  min-width: 100%;
-  height: auto;
+  min-height: 40px;
   object-fit: contain;
 }
 .certificates__carousel-picture {
   display: grid;
   grid-template-columns: 100px 1fr 100px;
-  min-height: 380px;
+  min-height: 300px;
 }
 .certificates__carousel-slides {
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,6 +99,7 @@
   }
   .certificates__carousel-picture {
     margin-top: 30px;
+    min-width: 100%;
   }
   .certificates__carousel {
     display: flex;
@@ -110,6 +111,7 @@
     overflow: hidden;
     position: relative;
     min-height: 100%;
+    min-width: 100%;
   }
   .certificates__carousel-picture {
     display: flex;
@@ -117,6 +119,7 @@
     transition: transform 0.001s ease;
     gap: 20px;
     overflow: hidden;
+    min-width: 100%;
   }
   .certificates__carousel-picture-slides {
     min-width: 100%;
@@ -129,12 +132,12 @@
     flex: 0 0 100%;
   }
   .left-arrow {
-    padding-top: 170px;
+    padding-top: 130px;
     margin-right: -32px;
     z-index: 2;
   }
   .right-arrow {
-    padding-top: 170px;
+    padding-top: 130px;
     margin-left: -32px;
     z-index: 2;
   }
@@ -216,12 +219,12 @@
     min-width: 50%;
   }
   .left-arrow {
-    padding-top: 165px;
+    padding-top: 125px;
     margin-right: -25px;
     z-index: 2;
   }
   .right-arrow {
-    padding-top: 165px;
+    padding-top: 125px;
     margin-left: -25px;
   }
   .certificates__carousel-arrow-left {

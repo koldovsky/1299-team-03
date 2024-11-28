@@ -57,16 +57,39 @@
 }
 
 .contact-form {
-  margin-top: 12px;
   background: rgb(243, 232, 226);
+  margin-top: 60px;
 
   .contact-form__form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin: 0 38px;
+
+  }
+
+  .contact-form__form:first-child {
+    padding-top: 50px;
   }
 
   .contact-form__input {
     height: 50px;
+    border: 0;
+    background-color: #f8efea;
   }
+
+  .contact-form__input--message {
+    height: 194px;
+  
+  }
+
+  .contact-form__button {
+    border: 0;
+    height: 53px;
+    background-color: var(--primary-900);
+    color: var(--pink-200);
+    font-weight: 500;
+    margin-bottom: 36px;
+  }
+
 }

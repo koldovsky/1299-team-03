@@ -5,6 +5,7 @@
 @import url(./global.header-order-button.css);
 @import url(contacts.contact-info.css);
 @import url(contacts.header-hero.css);
+@import url(./global.shopping-cart.css);
 
 /* body {
   font-family: var(--primary-font-family);
