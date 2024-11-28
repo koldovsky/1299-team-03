@@ -75,6 +75,9 @@
 }
 
 .products-carousel__slide-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   text-align: justify;
   padding: 20px;
   margin: 10px;
@@ -119,6 +122,7 @@
   font-size: 0.9375rem;
   font-family: var(--primary-font-family);
   color: var(--products-box-carousel-text-charact-name-color);
+  font-weight: 400;
 }
 
 .products-carousel__characteristic-description {
@@ -128,11 +132,20 @@
   color: var(--products-box-carousel-text-charact-description-color);
 }
 
+
+.products-carousel__accordion-content {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0d9; 
+  text-decoration: none;
+}
+
+
 .products-carousel__accordion-summary {
   font-family: var(--primary-font-family);
   color: var(--products-box-carousel-accordion-summury);
   font-size: 0.875rem;
-  font-weight: bold;
+  margin: 20px 0 20px 0;
+  cursor:pointer;
 }
 
 .products-carousel__accordion-instructions,
