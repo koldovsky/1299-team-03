@@ -142,29 +142,29 @@ renderProducts(products);
 
 //Carousel
 
-// const slides = document.querySelector('.products-carousel__slides-container');
+const slides = document.querySelector('.products-carousel__slides-container');
 
-// let currIdx = 0;
+let currIdx = 0;
 
-// function renderSlides(){
-//      const slidesContainer = document.querySelector('.products-carousel__slides-container');
-//      slidesContainer.innerHTML = slides[currIdx];
-// }
+function renderSlides(){
+     const slidesContainer = document.querySelector('.products-carousel__slides-container');
+     slidesContainer.innerHTML = slides[currIdx];
+}
 
-// function nextSlide(){
-//     currIdx = currIdx + 1 >= slides.length ? 0 : currIdx + 1;
-//     renderSlides();
-// }
+function nextSlide(){
+    currIdx = currIdx + 1 >= slides.length ? 0 : currIdx + 1;
+    renderSlides();
+}
 
-// renderSlides();
+renderSlides();
 
-// function prevSlide(){
-//   currIdx = currIdx - 1 < 0 ? slides.length - 1 : currIdx - 1;
-//     renderSlides();
-// }
+function prevSlide(){
+  currIdx = currIdx - 1 < 0 ? slides.length - 1 : currIdx - 1;
+    renderSlides();
+}
 
-// const btnNext = document.querySelector('.products-carousel__arrow-next');
-// btnNext.addEventListener('click', nextSlide);
+const btnNext = document.querySelector('.right-arrow');
+btnNext.addEventListener('click', nextSlide);
 
-// const btnPrev = document.querySelector('.products-carousel__arrow-prev');
-// btnPrev.addEventListener('click', prevSlide);
+const btnPrev = document.querySelector('.left-arrow');
+btnPrev.addEventListener('click', prevSlide);
