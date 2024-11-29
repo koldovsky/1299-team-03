@@ -121,6 +121,8 @@
     gap: 20px;
     overflow: hidden;
     min-width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .certificates__carousel-picture-slides {
     min-width: 100%;
@@ -206,6 +208,7 @@
   }
   .certificates__carousel-picture {
     display: flex;
+    align-items: center;
     transition: transform 0.5s ease-in-out;
     gap: 20px;
   }
