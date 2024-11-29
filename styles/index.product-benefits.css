@@ -2,6 +2,7 @@
   background-color: var(--prod-box-bg-color);
   display: grid;
   gap: 30px;
+  padding: 20px;
 }
 
 @media (min-width: 770px) {
@@ -18,7 +19,7 @@
 .product-benefits__item {
   display: grid;
   grid-template-rows: 20% 40% 40%;
-  gap: 10px;
+  gap: 15px;
   padding: 15px;
   margin: 15;
 }
@@ -31,10 +32,10 @@
 }
 .product-benefits__description {
   font-family: var(--primary-font-family);
-  font-family: 1.062rem;
+  font-size: 1.062rem;
   color: var(--prod-box-carousel-text-prod-description-color);
   text-align: justify;
-  margin: 0;
+  margin-bottom: -15px;
   padding: 0;
 }
 

@@ -43,7 +43,6 @@
   .product-box-carousel-section__title {
     text-align: center;
     font-size: 3rem;
-    
   }
 }
 
@@ -117,9 +116,9 @@
     .products-carousel__left-arrow {
       left: -5px;
     }
-  
+
     .products-carousel__right-arrow {
-      right:-5px;
+      right: -5px;
     }
   }
 }
