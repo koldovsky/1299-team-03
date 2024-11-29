@@ -46,14 +46,13 @@
 
   --red-500: #d04033;
 
-  
   --goldenrod-500: #c7964d;
-  --lavender-500:#9f7ba0;
+  --lavender-500: #9f7ba0;
   --amber-500: #d0943b;
   --mustard-400: #a39135;
-  --olive-400:#b8af5b;
-  --peach-400:#d7a55c;
-  --beige-100:#f9f3ee;
+  --olive-400: #b8af5b;
+  --peach-400: #d7a55c;
+  --beige-100: #f9f3ee;
 
   /* -------- VARIABLES -------- */
 
@@ -80,6 +79,9 @@
   --skin-bg-color: var(--primary-900);
   --skin-title-color: var(--primary-200);
   --skin-content-color: var(--primary-600);
+  --skin-image-color: var(--primary-200);
+  --skin-border-color: var(--primary-800);
+  --skin-arrow-carousel-color: var(--pink-300);
 
   --certificates-bg-color: var(--primary-200);
   --certificates-title-color: var(--primary-900);
@@ -110,14 +112,14 @@
   --products-box-carousel-accordion-summury: var(--goldenrod-500);
   --products-box-carousel-accordion-text: var(--primary-700);
 
-  --steps-of-using-bg-color:var(--pink-200);
-  --steps-of-using-title-brown: var( --mustard-400);
-  --steps-of-using-title-green:var(--primary-900);
-  --steps-of-using-title-orange:var(--amber-500);
+  --steps-of-using-bg-color: var(--pink-200);
+  --steps-of-using-title-brown: var(--mustard-400);
+  --steps-of-using-title-green: var(--primary-900);
+  --steps-of-using-title-orange: var(--amber-500);
   --steps-of-using-title-purple: var(--pink-700);
-  --steps-of-using-description-brown:var(--olive-400);
-  --steps-of-using-description-green:var(--primary-700);
-  --steps-of-using-description-orange:var(--peach-400);
+  --steps-of-using-description-brown: var(--olive-400);
+  --steps-of-using-description-green: var(--primary-700);
+  --steps-of-using-description-orange: var(--peach-400);
   --steps-of-using-description-purple: var(--lavender-500);
 
   --cart-bg-color: var(--pink-200);
