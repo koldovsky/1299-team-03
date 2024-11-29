@@ -10,7 +10,7 @@
 .product-box-carousel-section__title {
   text-align: left;
   font-size: 2.125rem;
-  font-weight: 400px;
+  font-weight: 500;
   line-height: 1.1em;
   font-family: var(--secondary-font-family);
   color: var(--prod-box-title-color);
@@ -44,6 +44,7 @@
   .product-box-carousel-section__title {
     text-align: center;
     font-size: 3rem;
+    
   }
 }
 
@@ -52,7 +53,7 @@
   font-size: 1.1875rem;
   font-family: var(--primary-font-family);
   color: var(--prod-box-subtitle-color);
-  font-weight: 400px;
+  font-weight: 400;
   margin: 15px;
   padding: 0 15px;
   letter-spacing: 1px;
