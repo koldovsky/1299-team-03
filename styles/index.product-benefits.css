@@ -1,5 +1,5 @@
 .product-benefits {
-  background-color: var(----products-box-bg-color);
+  background-color: var(--prod-box-bg-color);
   display: grid;
   gap: 20px;
 }
@@ -26,13 +26,13 @@
 .product-benefits__title {
   font-family: var(--secondary-font-family);
   font-size: 1.375rem;
-  color: var(--products-box-title-color);
+  color: var(--prod-box-title-color);
   text-align: justify;
 }
 .product-benefits__description {
   font-family: var(--primary-font-family);
   font-family: 1.062rem;
-  color: var(--products-box-carousel-text-product-description-color);
+  color: var(--prod-box-carousel-text-prod-description-color);
   text-align: justify;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ ul {
   font-weight: bold;
   font-size: 0.875rem;
   font-family: var(--primary-font-family);
-  color: var(--products-box-title-color);
+  color: var(--prod-box-title-color);
   line-height: 2;
 }
 

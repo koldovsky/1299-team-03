@@ -1,5 +1,5 @@
 .product-box-carousel-section {
-  background-color: var(--products-box-bg-color);
+  background-color: var(--prod-box-bg-color);
   padding: 90px 0 30px;
   margin: 0;
 }
@@ -13,7 +13,7 @@
   font-weight: 400px;
   line-height: 1.1em;
   font-family: var(--secondary-font-family);
-  color: var(--products-box-title-color);
+  color: var(--prod-box-title-color);
   padding-top: 120px;
   margin: 15px;
   padding: 0 15px;
@@ -49,9 +49,9 @@
 
 .product-box-carousel-section__subtitle {
   text-align: left;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-family: var(--primary-font-family);
-  color: var(--products-box-subtitle-color);
+  color: var(--prod-box-subtitle-color);
   font-weight: 400px;
   margin: 15px;
   padding: 0 15px;
@@ -65,10 +65,9 @@
 }
 
 .products-carousel__slide {
-  background-color: var(--products-box-slide-bg-color);
+  background-color: var(--prod-box-slide-bg-color);
   display: grid;
   margin: 15px;
- 
 }
 @media (min-width: 770px) {
   .products-carousel__slide {
@@ -82,44 +81,45 @@
 
   .products-carousel__left-arrow,
   .products-carousel__right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    border-radius: 50%;
+    background-color: var(--prod-box-subtitle-color);
     top: 50%;
+    transform: translateY(-50%);
     width: 32px;
     height: 32px;
-    transform: translateY(-50%);
+
+    svg {
+      fill: var(--prod-box-bg-color);
+      width: 20px;
+      height: 20px;
+    }
   }
 
   .products-carousel__left-arrow {
-    left: -10px;
+    left: 20px;
   }
 
   .products-carousel__right-arrow {
-    right: -10px;
+    right: 20px;
   }
 
-  @media (max-width: 1280px) {
+  @media (min-width: 1230px) {
     .products-carousel__left-arrow,
     .products-carousel__right-arrow {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      background-color: var(--products-box-subtitle-color);
-
-      svg {
-        fill: var(--products-box-bg-color);
-        width: 20px;
-        height: 20px;
-      }
-  
+      width: 32px;
+      height: 32px;
     }
 
     .products-carousel__left-arrow {
-      left: 20px;
+      left: -5px;
     }
-
+  
     .products-carousel__right-arrow {
-      right: 20px;
+      right:-5px;
     }
   }
 }
@@ -143,7 +143,7 @@
 }
 
 .products-carousel__slide-text-title {
-  color: var(--products-box-carousel-text-title-color);
+  color: var(--prod-box-carousel-text-title-color);
   font-size: 12px;
   font-family: var(--secondary-font-family);
   letter-spacing: 1px;
@@ -152,13 +152,13 @@
 .products-carousel__slide-text-product-name {
   font-size: 24px;
   font-family: var(--secondary-font-family);
-  color: var(--products-box-carousel-text-product-name-color);
+  color: var(--prod-box-carousel-text-prod-name-color);
 }
 
 .products-carousel__slide-text-product-description {
   font-size: 17px;
   color: var(--primary-font-family);
-  color: var(--products-box-carousel-text-product-description-color);
+  color: var(--prod-box-carousel-text-prod-description-color);
 }
 
 .products-carousel__characteristics {
@@ -179,7 +179,7 @@
 .products-carousel__characteristic-name {
   font-size: 0.9375rem;
   font-family: var(--primary-font-family);
-  color: var(--products-box-carousel-text-charact-name-color);
+  color: var(--prod-box-carousel-text-charact-name-color);
   font-weight: 400;
 }
 
@@ -187,7 +187,7 @@
   font-family: var(--primary-font-family);
   font-size: 1.0625rem;
   font-style: italic;
-  color: var(--products-box-carousel-text-charact-description-color);
+  color: var(--prod-box-carousel-text-charact-description-color);
 }
 
 .products-carousel__accordion-content {
@@ -198,7 +198,7 @@
 
 .products-carousel__accordion-summary {
   font-family: var(--primary-font-family);
-  color: var(--products-box-carousel-accordion-summury);
+  color: var(--prod-box-carousel-accordion-summury);
   font-size: 0.875rem;
   margin: 20px 0 20px 0;
   cursor: pointer;
@@ -207,5 +207,5 @@
 .products-carousel__accordion-instructions,
 .products-carousel__accordion-ingridients {
   font-style: italic;
-  color: var(--products-box-carousel-accordion-text);
+  color: var(--prod-box-carousel-accordion-text);
 }
