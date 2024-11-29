@@ -48,6 +48,7 @@
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
+  align-items: center;
 }
 .certificates__carousel-picture-slides {
   min-height: 40px;
