@@ -17,7 +17,7 @@ let productCount = 0;
 cartCloseButton.addEventListener("click", hideCard);
 cartOverlay.addEventListener("click", hideCard);
 quantityInput.addEventListener("input", setProducts);
-orderButtons.forEach((button) => {
+orderButtons.forEach(button => {
   button.addEventListener("click", showCardAndAddProduct);
 });
 basket.addEventListener("click", showCard);
@@ -30,36 +30,40 @@ function setProducts({ target }) {
   productPrice.textContent = `$${totalPrice}USD`;
   totalAmount.textContent = `$${totalPrice}USD`;
 
-  renderBasket(inputCount);
+  renderBasket();
 }
 
 function showCard() {
   cart.style.display = "flex";
-  body.style.overflow = "hidden";
+  body.classList.add("overflow-hidden");
 }
 
 function hideCard() {
   cartContainer.style.display = "none";
-  body.style.overflow = "auto";
+  body.classList.remove("overflow-hidden");
 }
 
 function showCardAndAddProduct() {
   cart.style.display = "flex";
   productCount++;
-  body.style.overflow = "hidden";
-  renderBasket(productCount);
+  body.classList.add("overflow-hidden");
+  quantityInput.value = productCount;
+
+  renderBasket();
 }
 
-function renderBasket(count) {
-  if (typeof count === "number") {
-    if (count > 0) {
+function renderBasket() {
+  if (typeof productCount === "number") {
+    if (productCount > 0) {
       basket.style.visibility = "visible";
     } else {
       basket.style.visibility = "hidden";
     }
 
     basket.innerHTML = `<div class="basket">
-      <span class="basket__counter">${count > 9 ? "9+" : count}</span>
+      <span class="basket__counter">${
+        productCount > 9 ? "9+" : productCount
+      }</span>
       <svg
         width="36"
         height="36"
@@ -83,4 +87,4 @@ function renderBasket(count) {
   }
 }
 
-renderBasket(productCount);
+renderBasket();
