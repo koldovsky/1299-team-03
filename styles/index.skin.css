@@ -15,9 +15,10 @@
       font-family: var(--secondary-font-family);
     }
 
-    .skin__header-comment-inner {
+    .skin__header-comment-wrapper {
       padding-top: 8px;
       position: relative;
+      display: flex;
 
       .skin__header-comment--image {
         flex-shrink: 0;
@@ -97,7 +98,7 @@
       }
 
       .carousel-control-next,
-      .carousel-control-prev{
+      .carousel-control-prev {
         position: absolute;
         width: 30px;
         height: 30px;
