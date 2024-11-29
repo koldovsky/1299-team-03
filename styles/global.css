@@ -100,22 +100,22 @@
   --benefits-paragraph-color: var(--yellow-400);
   --benefits-circle-color: var(--yellow-500);
 
-  --products-box-bg-color: var(--pink-200);
-  --products-box-title-color: var(--primary-900);
-  --products-box-subtitle-color: var(--primary-900);
-  --products-box-slide-bg-color: var(--beige-100);
-  --products-box-carousel-text-title-color: var(--goldenrod-500);
-  --products-box-carousel-text-product-name-color: var(--primary-900);
-  --products-box-carousel-text-product-description-color: var(--primary-700);
-  --products-box-carousel-text-charact-name-color: var(--goldenrod-500);
-  --products-box-carousel-text-charact-description-color: var(--primary-700);
-  --products-box-carousel-accordion-summury: var(--goldenrod-500);
-  --products-box-carousel-accordion-text: var(--primary-700);
+  --prod-box-bg-color: var(--pink-200);
+  --prod-box-title-color: var(--primary-900);
+  --prod-box-subtitle-color: var(--primary-900);
+  --prod-box-slide-bg-color: var(--beige-100);
+  --prod-box-carousel-text-title-color: var(--goldenrod-500);
+  --prod-box-carousel-text-prod-name-color: var(--primary-900);
+  --prod-box-carousel-text-prod-description-color: var(--primary-700);
+  --prod-box-carousel-text-charact-name-color: var(--goldenrod-500);
+  --prod-box-carousel-text-charact-description-color: var(--primary-700);
+  --prod-box-carousel-accordion-summury: var(--goldenrod-500);
+  --prod-box-carousel-accordion-text: var(--primary-700);
 
-  --steps-of-using-bg-color: var(--pink-200);
-  --steps-of-using-title-brown: var(--mustard-400);
-  --steps-of-using-title-green: var(--primary-900);
-  --steps-of-using-title-orange: var(--amber-500);
+  --steps-of-using-bg-color:var(--beige-100);
+  --steps-of-using-title-brown: var( --mustard-400);
+  --steps-of-using-title-green:var(--primary-900);
+  --steps-of-using-title-orange:var(--amber-500);
   --steps-of-using-title-purple: var(--pink-700);
   --steps-of-using-description-brown: var(--olive-400);
   --steps-of-using-description-green: var(--primary-700);
