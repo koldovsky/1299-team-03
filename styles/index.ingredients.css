@@ -98,6 +98,39 @@
   background-color: var(--pink-500);
 }
 
+/* Стилі годинника */
+.ingredients__clock {
+  font-size: 2em;
+  color: var(--pink-700);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--pink-100);
+  border: 2px solid var(--pink-300);
+  border-radius: 8px;
+  font-family: "Chivo", sans-serif;
+  transition: all 0.5s ease;
+  animation: colorChange 10s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: var(--pink-700);
+  }
+  50% {
+    color: var(--pink-500);
+  }
+  100% {
+    color: var(--pink-700);
+  }
+}
+
+.ingredients__clock:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
 @media screen and (min-width: 768px) and (max-width: 1038px) {
   .ingredients-container {
     flex-direction: column;
@@ -118,5 +151,10 @@
   .ingredients__button {
     padding: 10px 20px;
     font-size: 0.9rem;
+  }
+
+  .ingredients__clock {
+    font-size: 1.2em;
+    padding: 8px 16px;
   }
 }
