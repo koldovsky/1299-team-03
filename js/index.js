@@ -1,5 +1,6 @@
 function init() {
   import("./header.js");
+  import("./index.skin.js");
   import("./index.certificates-carousel.js");
   import("./index.special-order.js");
   import("./index.partner.js");
