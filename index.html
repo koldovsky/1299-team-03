@@ -85,113 +85,119 @@
       ></section>
 
       <!--Vadim Kovalenko-->
-      <section>
-        <div
-          id="cta-section"
-          class="block block--cta block--dark block--with-background"
-        >
-          <!-- Скрытый видеоблок -->
-          <div id="hidden-video" class="video"></div>
-      
-          <!-- Блок фона -->
-          <div
-            class="block__background background background--dark"
-            aria-hidden="true"
-          >
-            <div class="background__image"></div>
-          </div>
-      
-          <!-- Основной контент секции -->
-          <section class="block__content section">
-            <div class="section__inner">
-              <!-- Заголовок секции -->
-              <header class="section__header">
-                <div class="grid grid--1-column">
-                  <div class="grid__item">
-                    <div class="text text--align-right">
-                      <p class="text__small text__small--light">Client's reviews</p>
-                      <div
-                        class="spacer spacer--desktop-200 spacer--tablet-200 spacer--mobile-0"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </header>
-      
-              <!-- Основной контент -->
-              <div class="section__content">
-                <div class="grid grid--1-column">
-                  <div class="grid__item">
-                    <div class="text text--align-left">
-                      <!-- Изображение -->
-                      <div class="media media--image">
-                        <picture class="media__picture">
-                          <!-- Версия для планшетов -->
-                          <source
-                            media="(min-width: 768px) and (max-width: 991px)"
-                            srcset="../img/video_presentation/image_default.jpg"
-                          />
-                          <!-- Версия для мобильных устройств -->
-                          <source
-                            media="(max-width: 767px)"
-                            srcset="../img/video_presentation/image_default.jpg"
-                          />
-                          <!-- Основное изображение -->
-                          <img
-                            class="media__image"
-                            alt="Illustration: Shine Box presentation"
-                            src="../img/video_presentation/image_default.jpg"
-                          />
-                        </picture>
-                      </div>
-      
-                      <div
-                        class="spacer spacer--desktop-40 spacer--tablet-40 spacer--mobile-0"
-                      ></div>
-      
-                      <!-- Текстовые блоки -->
-                      <p class="text__heading text__heading--light">
-                        Watch Our Shine Box Presentation
-                      </p>
-                      <p class="text__subtitle text__subtitle--light">
-                        <em>Discover our best-selling products.</em>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+      <!-- Подключение CSS -->
+<link rel="stylesheet" href="./styles/video_presentation.css" />
+
+<!-- Подключение JavaScript -->
+<script src="./scripts/video_presentation.js" defer></script>
+
+<section>
+  <div
+    id="cta-section"
+    class="block block--cta block--dark block--with-background"
+  >
+    <!-- Скрытый видеоблок -->
+    <div id="hidden-video" class="video"></div>
+
+    <!-- Блок фона -->
+    <div
+      class="block__background background background--dark"
+      aria-hidden="true"
+    >
+      <div class="background__image"></div>
+    </div>
+
+    <!-- Основной контент секции -->
+    <section class="block__content section">
+      <div class="section__inner">
+        <!-- Заголовок секции -->
+        <header class="section__header">
+          <div class="grid grid--1-column">
+            <div class="grid__item">
+              <div class="text text--align-right">
+                <p class="text__small text__small--light">Client's reviews</p>
+                <div
+                  class="spacer spacer--desktop-200 spacer--tablet-200 spacer--mobile-0"
+                ></div>
               </div>
-      
-              <!-- Футер секции -->
-              <footer class="section__footer">
-                <div class="grid grid--2-columns">
-                  <div class="grid__item">
-                    <div class="text text--align-left">
-                      <p class="text__body text__body--light">
-                        Our Shine Box is a set of essential cosmetic products for
-                        daily skin care. For all skin types and ages.
-                        Dermatologically tested.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="grid__item">
-                    <div class="text text--align-right">
-                      <div
-                        class="spacer spacer--desktop-200 spacer--tablet-200 spacer--mobile-0"
-                      ></div>
-                      <p class="text__caption text__caption--light">
-                        <a href="/contacts" class="link link--underline"
-                          >Order Shine Box Now</a
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </footer>
             </div>
-          </section>
+          </div>
+        </header>
+
+        <!-- Основной контент -->
+        <div class="section__content">
+          <div class="grid grid--1-column">
+            <div class="grid__item">
+              <div class="text text--align-left">
+                <!-- Изображение -->
+                <div class="media media--image">
+                  <picture class="media__picture">
+                    <!-- Версия для планшетов -->
+                    <source
+                      media="(min-width: 768px) and (max-width: 991px)"
+                      srcset="../img/video_presentation/image_default.jpg"
+                    />
+                    <!-- Версия для мобильных устройств -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="../img/video_presentation/image_default.jpg"
+                    />
+                    <!-- Основное изображение -->
+                    <img
+                      class="media__image"
+                      alt="Illustration: Shine Box presentation"
+                      src="../img/video_presentation/image_default.jpg"
+                    />
+                  </picture>
+                </div>
+
+                <div
+                  class="spacer spacer--desktop-40 spacer--tablet-40 spacer--mobile-0"
+                ></div>
+
+                <!-- Текстовые блоки -->
+                <p class="text__heading text__heading--light">
+                  Watch Our Shine Box Presentation
+                </p>
+                <p class="text__subtitle text__subtitle--light">
+                  <em>Discover our best-selling products.</em>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      
+
+        <!-- Футер секции -->
+        <footer class="section__footer">
+          <div class="grid grid--2-columns">
+            <div class="grid__item">
+              <div class="text text--align-left">
+                <p class="text__body text__body--light">
+                  Our Shine Box is a set of essential cosmetic products for
+                  daily skin care. For all skin types and ages.
+                  Dermatologically tested.
+                </p>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="text text--align-right">
+                <div
+                  class="spacer spacer--desktop-200 spacer--tablet-200 spacer--mobile-0"
+                ></div>
+                <p class="text__caption text__caption--light">
+                  <a href="/contacts" class="link link--underline"
+                    >Order Shine Box Now</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </div>
+</section>
+
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
