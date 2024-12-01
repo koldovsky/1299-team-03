@@ -10,14 +10,27 @@ const orderButtons = document.querySelectorAll(".order-button");
 const cart = document.querySelector(".shopping-cart-container");
 const basket = document.querySelector(".basket-container");
 const body = document.querySelector("body");
-
+const promoCodeOpenButton = document.querySelector(
+  ".shopping-cart__promo-code-open-button"
+);
+const totalPromoCode = document.querySelector(
+  ".shopping-cart__total-promo-code"
+);
+const summary = document.querySelector(".shopping-cart__summary");
+const removeProductButton = document.querySelector(
+  ".shopping-cart__remove-button"
+);
+const cartContent = document.querySelector(".shopping-cart__content");
+const cartEmptyContent = document.querySelector(".shopping-cart__empty");
 const unitPrice = 299;
 let productCount = 0;
 
+removeProductButton.addEventListener("click", removeCartContent);
+promoCodeOpenButton.addEventListener("click", changePromoCodeInputVisibility);
 cartCloseButton.addEventListener("click", hideCard);
 cartOverlay.addEventListener("click", hideCard);
 quantityInput.addEventListener("input", setProducts);
-orderButtons.forEach(button => {
+orderButtons.forEach((button) => {
   button.addEventListener("click", showCardAndAddProduct);
 });
 basket.addEventListener("click", showCard);
@@ -36,6 +49,8 @@ function setProducts({ target }) {
 function showCard() {
   cart.style.display = "flex";
   body.classList.add("overflow-hidden");
+  cartContent.style.display = "flex";
+  cartEmptyContent.style.display = "none";
 }
 
 function hideCard() {
@@ -47,6 +62,27 @@ function showCardAndAddProduct() {
   cart.style.display = "flex";
   productCount++;
   body.classList.add("overflow-hidden");
+  quantityInput.value = productCount;
+  cartContent.style.display = "flex";
+  cartEmptyContent.style.display = "none";
+
+  renderBasket();
+}
+
+function changePromoCodeInputVisibility() {
+  if (totalPromoCode.style.display === "none") {
+    totalPromoCode.style.display = "flex";
+    summary.style.flexDirection = "column";
+  } else {
+    totalPromoCode.style.display = "none";
+    summary.style.flexDirection = "row";
+  }
+}
+
+function removeCartContent() {
+  cartContent.style.display = "none";
+  cartEmptyContent.style.display = "flex";
+  productCount = 0;
   quantityInput.value = productCount;
 
   renderBasket();
