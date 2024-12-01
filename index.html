@@ -92,22 +92,15 @@
         >
           <!-- Скрытый видеоблок -->
           <div id="hidden-video" class="video"></div>
-
+      
           <!-- Блок фона -->
           <div
             class="block__background background background--dark"
             aria-hidden="true"
           >
-            <div
-              class="background__image"
-              style="
-                background: url('video_presentation/background_image.jpg') 0%
-                    39.67% / cover no-repeat,
-                  rgb(50, 89, 86);
-              "
-            ></div>
+            <div class="background__image"></div>
           </div>
-
+      
           <!-- Основной контент секции -->
           <section class="block__content section">
             <div class="section__inner">
@@ -116,9 +109,7 @@
                 <div class="grid grid--1-column">
                   <div class="grid__item">
                     <div class="text text--align-right">
-                      <p class="text__small text__small--light">
-                        Client's reviews
-                      </p>
+                      <p class="text__small text__small--light">Client's reviews</p>
                       <div
                         class="spacer spacer--desktop-200 spacer--tablet-200 spacer--mobile-0"
                       ></div>
@@ -126,7 +117,7 @@
                   </div>
                 </div>
               </header>
-
+      
               <!-- Основной контент -->
               <div class="section__content">
                 <div class="grid grid--1-column">
@@ -138,23 +129,26 @@
                           <!-- Версия для планшетов -->
                           <source
                             media="(min-width: 768px) and (max-width: 991px)"
-                            srcset="#"
+                            srcset="../img/video_presentation/image_default.jpg"
                           />
                           <!-- Версия для мобильных устройств -->
-                          <source media="(max-width: 767px)" srcset="#" />
+                          <source
+                            media="(max-width: 767px)"
+                            srcset="../img/video_presentation/image_default.jpg"
+                          />
                           <!-- Основное изображение -->
                           <img
                             class="media__image"
                             alt="Illustration: Shine Box presentation"
-                            src="#"
+                            src="../img/video_presentation/image_default.jpg"
                           />
                         </picture>
                       </div>
-
+      
                       <div
                         class="spacer spacer--desktop-40 spacer--tablet-40 spacer--mobile-0"
                       ></div>
-
+      
                       <!-- Текстовые блоки -->
                       <p class="text__heading text__heading--light">
                         Watch Our Shine Box Presentation
@@ -166,15 +160,15 @@
                   </div>
                 </div>
               </div>
-
+      
               <!-- Футер секции -->
               <footer class="section__footer">
                 <div class="grid grid--2-columns">
                   <div class="grid__item">
                     <div class="text text--align-left">
                       <p class="text__body text__body--light">
-                        Our Shine Box is a set of essential cosmetic products
-                        for daily skin care. For all skin types and ages.
+                        Our Shine Box is a set of essential cosmetic products for
+                        daily skin care. For all skin types and ages.
                         Dermatologically tested.
                       </p>
                     </div>
@@ -197,7 +191,7 @@
           </section>
         </div>
       </section>
-
+      
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
