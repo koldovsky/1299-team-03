@@ -20,6 +20,7 @@ const summary = document.querySelector(".shopping-cart__summary");
 const removeProductButton = document.querySelector(
   ".shopping-cart__remove-button"
 );
+const shoppingCart = document.querySelector(".shopping-cart");
 const cartContent = document.querySelector(".shopping-cart__content");
 const cartEmptyContent = document.querySelector(".shopping-cart__empty");
 const unitPrice = 299;
@@ -56,6 +57,7 @@ function showCard() {
 function hideCard() {
   cartContainer.style.display = "none";
   body.classList.remove("overflow-hidden");
+  cart.style.alignItems = "start"
 }
 
 function showCardAndAddProduct() {
@@ -86,6 +88,7 @@ function changePromoCodeInputVisibility() {
 
 function removeCartContent() {
   cartContent.style.display = "none";
+  cart.style.alignItems = "center";
   cartEmptyContent.style.display = "flex";
   productCount = 0;
   quantityInput.value = productCount;
