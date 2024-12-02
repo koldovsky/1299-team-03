@@ -1,8 +1,0 @@
-/* video_presentation.css */
-.background__image {
-  background: url('../img/video_presentation/background_image.jpg') 0% 39.67% / cover no-repeat, rgb(50, 89, 86);
-}
-
-.media__image {
-  background: url('../img/video_presentation/image_default.jpg') no-repeat center center / contain;
-}
