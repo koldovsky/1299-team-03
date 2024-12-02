@@ -7,10 +7,7 @@
   z-index: 15;
   display: none;
   justify-content: center;
-  align-items: center;
-  overflow-y: auto;
-  padding-top: 700px;
-  padding-bottom: 500px;
+  overflow-y: scroll;
 
   .shopping-cart__overlay {
     background-color: var(--cart-overlay-bg-color);
@@ -31,6 +28,8 @@
     padding: 16px;
     z-index: 10;
     min-width: 300px;
+    height: fit-content;
+    margin: 20px 0;
 
     .shopping-cart__header {
       display: flex;
@@ -129,7 +128,7 @@
               opacity: 1;
               cursor: pointer;
             }
-            
+
             .shopping-cart__quantity-input:focus {
               outline: none;
             }
@@ -316,6 +315,10 @@
         }
       }
     }
+  }
+
+  &.shopping-cart.empty + .shopping-cart-container {
+    align-items: center;
   }
 }
 
