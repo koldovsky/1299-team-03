@@ -5,6 +5,13 @@
 .contacts__info {
   color: #668280;
   font-size: 17px;
+  display: grid;
+
+  .contacts__data {
+    margin-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
   .contacts__subtitle {
     color: rgb(50, 89, 86);
@@ -44,6 +51,12 @@
   }
 }
 
+@media (min-width: 600px) {
+  .contacts__info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .contacts__data p {
   margin-top: 25px;
   font-weight: 400;
@@ -58,14 +71,12 @@
 
 .contact-form {
   background: rgb(243, 232, 226);
-  margin-top: 60px;
 
   .contact-form__form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin: 0 38px;
-
   }
 
   .contact-form__form:first-child {
@@ -81,7 +92,6 @@
 
   .contact-form__input--message {
     height: 194px;
-  
   }
 
   .contact-form__button {
@@ -93,4 +103,13 @@
     margin-bottom: 36px;
   }
 
+  @media (min-width: 600px) {
+    .contact-form {
+      height: 520px;
+    }
+
+    .contact-form__input--message {
+      height: 120px;
+    }
+  }
 }
