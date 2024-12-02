@@ -63,7 +63,7 @@ function showCardAndAddProduct() {
   productCount++;
 
   const totalPrice = formatter.format(productCount * unitPrice);
-  
+
   body.classList.add("overflow-hidden");
   quantityInput.value = productCount;
   cartContent.style.display = "flex";

@@ -8,6 +8,7 @@ function init() {
   import("./global.shopping-cart.js");
   import("./utils.js");
   import("./index.ingredients.js");
+  import("./video_presentation.js");
 }
 
 const totalPartials = document.querySelectorAll(
