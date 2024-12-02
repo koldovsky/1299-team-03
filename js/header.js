@@ -42,7 +42,7 @@ function hideMenu() {
 
 if (!initLoad) {
   const id = window.location.hash.slice(1);
-  const link = document.querySelector(`#${id}`);
+  const link = document.getElementById(id);
 
   if (link) {
     link.scrollIntoView({ behavior: "smooth" });

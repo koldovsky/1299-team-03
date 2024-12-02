@@ -30,7 +30,7 @@ promoCodeOpenButton.addEventListener("click", changePromoCodeInputVisibility);
 cartCloseButton.addEventListener("click", hideCard);
 cartOverlay.addEventListener("click", hideCard);
 quantityInput.addEventListener("input", setProducts);
-orderButtons.forEach((button) => {
+orderButtons.forEach(button => {
   button.addEventListener("click", showCardAndAddProduct);
 });
 basket.addEventListener("click", showCard);
@@ -61,10 +61,15 @@ function hideCard() {
 function showCardAndAddProduct() {
   cart.style.display = "flex";
   productCount++;
+
+  const totalPrice = formatter.format(productCount * unitPrice);
+  
   body.classList.add("overflow-hidden");
   quantityInput.value = productCount;
   cartContent.style.display = "flex";
   cartEmptyContent.style.display = "none";
+  productPrice.textContent = `$${totalPrice}USD`;
+  totalAmount.textContent = `$${totalPrice}USD`;
 
   renderBasket();
 }
