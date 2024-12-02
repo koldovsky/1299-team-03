@@ -14,7 +14,7 @@
   }
 
   .contacts__subtitle {
-    color: rgb(50, 89, 86);
+    color: var(--primary-900);
     font-size: 34px;
     font-weight: 400;
     font-family: var(--secondary-font-family);

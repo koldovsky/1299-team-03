@@ -1,0 +1,36 @@
+.contacts__term-conditions {
+  padding: 30px 24px;
+  font-size: 17px;
+
+  .term-conditions__title {
+    font-weight: 400;
+    color: var(--primary-900);
+    padding-bottom: 30px;
+  }
+
+  .contacts__terms {
+    margin-top: 50px;
+    display: grid;
+  }
+
+  .contacts__term-items {
+    border-bottom: 1px solid #d3e2c4;
+  }
+
+  .term-conditions__subtitle {
+    font-weight: 400;
+    color: var(--primary-900);
+  }
+
+  .contacts__term-text {
+    margin-top: 20px;
+    letter-spacing:normal
+  }
+
+  @media (min-width: 760px) {
+    .contacts__terms {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 60px
+    }
+  }
+}
