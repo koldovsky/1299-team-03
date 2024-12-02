@@ -1,6 +1,7 @@
 /* video_presentation.css */
 .background__image {
   background: url('../img/video_presentation/background__image.png') 0% 39.67% / cover no-repeat, rgb(50, 89, 86);
+  height: 200px;
 }
 
 .media__image {
