@@ -1,0 +1,44 @@
+.contacts__privacy-policy {
+  padding: 30px 24px;
+  font-size: 17px;
+  line-height: 25.5px;
+
+  .contacts__privacy-policy-title {
+    padding-bottom: 30px;
+  }
+
+  .contacts__privacy-policy-title,
+  .contacts__privacy-policy-subtitle {
+    font-weight: 400;
+    color: var(--primary-900);
+  }
+
+  .contacts__privacy-policy-description {
+    margin-bottom: 30px;
+  }
+
+  .contacts__privacy-policy-content {
+    display: grid;
+  }
+
+  .contacts__privacy-policy-article {
+    margin-top: 20px;
+  }
+
+  .contacts__privacy-policy-list {
+    font-size: 15px;
+  }
+
+.contacts__privacy-policy-item {
+  margin-top: 20px;
+  font-style: italic;
+  line-height: 19.6px;
+}
+
+  @media (min-width: 760px) {
+    .contacts__privacy-policy-content {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 60px
+    }
+  }
+}
