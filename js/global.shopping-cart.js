@@ -10,6 +10,8 @@ const orderButtons = document.querySelectorAll(".order-button");
 const cart = document.querySelector(".shopping-cart-container");
 const basket = document.querySelector(".basket-container");
 const body = document.querySelector("body");
+const orderForm = document.querySelector(".shopping-cart__form")
+
 const promoCodeOpenButton = document.querySelector(
   ".shopping-cart__promo-code-open-button"
 );
@@ -58,6 +60,18 @@ function hideCard() {
   cartContainer.style.display = "none";
   body.classList.remove("overflow-hidden");
   cart.style.alignItems = "start"
+  const fields = [
+    {id: 'name', message: "Name is required."},
+    {id: 'email', message: "Email is required."},
+    {id: 'phone', message: "Phone is required."}
+  ]
+  fields.forEach(field => {
+    const error = document.getElementById(`${field.id}-error`);
+    const input = document.getElementById(field.id);
+    input.classList.remove("invalid");
+    error.textContent = "";
+    error.style.display = "none";
+  })
 }
 
 function showCardAndAddProduct() {
@@ -95,6 +109,59 @@ function removeCartContent() {
 
   renderBasket();
 }
+
+
+orderForm.addEventListener("submit", (event)=> {
+
+  event.preventDefault();
+
+  const fields = [
+    {id: 'name', message: "Name is required."},
+    {id: 'email', message: "Email is required."},
+    {id: 'phone', message: "Phone is required."}
+  ]
+
+  let allValid = true;
+
+  fields.forEach(field => {
+    const input = document.getElementById(field.id);
+    const error = document.getElementById(`${field.id}-error`);
+
+    if (!input.value.trim()) {
+      input.classList.add("invalid");
+      error.textContent = field.message;
+      error.style.display = "block";
+      allValid = false;
+    } else {
+      input.classList.remove("invalid");
+      error.textContent = "";
+      error.style.display = "none";
+    }
+  })
+})
+
+const inputs = document.querySelectorAll('.shopping-cart__form-input')
+inputs.forEach(input => {
+  input.addEventListener('input', () => {
+    if(input.value.trim()) {
+      input.classList.remove('invalid');
+      const error = document.getElementById(`${input.id}-error`);
+      if(error) error.textContent = "";
+    }
+})
+})
+
+
+document.querySelectorAll('input').forEach(input => {
+  input.addEventListener('input', () => {
+    if (input.value.trim()) {
+      input.classList.remove('invalid');
+      const errorMessage = document.getElementById(`${input.id}Error`);
+      if (errorMessage) errorMessage.textContent = '';
+    }
+  });
+});
+
 
 function renderBasket() {
   if (typeof productCount === "number") {
