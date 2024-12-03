@@ -1,5 +1,6 @@
 function init() {
   import("./header.js");
+  import("./index.skin.js");
   import("./index.certificates-carousel.js");
   import("./index.special-order.js");
   import("./index.partner.js");
@@ -7,6 +8,7 @@ function init() {
   import("./global.shopping-cart.js");
   import("./utils.js");
   import("./index.ingredients.js");
+  import("./video_presentation.js");
 }
 
 const totalPartials = document.querySelectorAll(

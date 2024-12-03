@@ -5,22 +5,10 @@
 @import url(./global.header-order-button.css);
 @import url(contacts.contact-info.css);
 @import url(contacts.header-hero.css);
+@import url(contacts.term-conditions.partial.css);
+@import url(contacts.privacy-policy.partial.css);
 @import url(./global.shopping-cart.css);
-
-/* body {
-  font-family: var(--primary-font-family);
-  background-color: rgb(194, 204, 169);
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color:rgb(102,130,128)
-} */
+@import url(./global.footer.css);
 
 .contacts__body {
   background-color: var(--contacts-body-background-color);
@@ -30,4 +18,11 @@ a {
 .contacts__body a {
   text-decoration: none;
   color: rgb(102, 130, 128);
+}
+
+.contacts__main {
+  margin: 0 auto;
+  max-width: 1177px;
+  padding-left: 43px;
+  padding-right: 43px;
 }

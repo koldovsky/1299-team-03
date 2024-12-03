@@ -1,0 +1,48 @@
+.contacts__term-conditions {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 17px;
+  line-height: 25.5px;
+
+  .term-conditions__title {
+    font-weight: 400;
+    color: var(--primary-900);
+    padding-bottom: 30px;
+  }
+
+  .contacts__terms {
+    margin-top: 50px;
+    display: grid;
+  }
+
+  .contacts__term-items {
+    border-bottom: 1px solid #d3e2c4;
+  }
+
+  .term-conditions__name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .term-conditions__subtitle {
+    font-weight: 400;
+    color: var(--primary-900);
+  }
+
+  .contacts__term-text {
+    margin-top: 20px;
+    letter-spacing: normal;
+    display: none;;
+  }
+
+  @media (min-width: 760px) {
+    .contacts__terms {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 60px;
+    }
+  }
+}
+
+

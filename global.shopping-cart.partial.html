@@ -7,6 +7,12 @@
         &times;
       </button>
     </div>
+    <div class="shopping-cart__empty">
+      <h3 class="shopping-cart__empty-title">Shopping cart is empty</h3>
+      <p class="shopping-cart__empty-text">
+        Continue shopping to add product to your cart
+      </p>
+    </div>
     <div class="shopping-cart__content">
       <div class="shopping-cart__product">
         <h3 class="shopping-cart__product-header">Products</h3>
@@ -37,19 +43,23 @@
         </div>
       </div>
       <div class="shopping-cart__summary">
-        <a href="#" class="shopping-cart__promo-link">Promo code</a>
+        <button class="shopping-cart__promo-code-open-button">
+          Promo code
+        </button>
         <div class="shopping-cart__total">
           <div class="shopping-cart__total-promo-code">
             <input
-            type="text"
-            class="shopping-cart__total-promo-code-input"
-            placeholder="Enter promo code"
-            id="promo-code-input"
+              type="text"
+              class="shopping-cart__total-promo-code-input"
+              placeholder="Enter promo code"
+              id="promo-code-input"
             />
             <button class="shopping-cart__total-promo-code-button">Ok</button>
           </div>
-          <span class="shopping-cart__total-label">Total:</span>
-          <span class="shopping-cart__total-amount">$299.00USD</span>
+          <div class="shopping-cart__total-promo-code-info">
+            <span class="shopping-cart__total-label">Total:</span>
+            <span class="shopping-cart__total-amount">$299.00USD</span>
+          </div>
         </div>
       </div>
       <form class="shopping-cart__form" action="#" method="post">

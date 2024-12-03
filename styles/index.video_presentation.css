@@ -1,0 +1,68 @@
+/* video_presentation.css */
+.media {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  align-items: center; /* Центрируем элементы */
+  margin-bottom: 20px; /* Отступ снизу для разделения */
+}
+
+.background__image {
+  position: relative;
+  background-color: #3c5859; /* Цвет фона */
+  background: url('../img/video_presentation/background__image.png') 0% 39.67% / cover no-repeat, rgb(50, 89, 86);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+.media__picture {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем иконку и текст */
+}
+
+.media__image {
+  background: url('../img/video_presentation/image_default.svg') no-repeat center/contain;
+  width: 120px;
+  height: 120px; /* Добавляем высоту */
+  margin-bottom: 10px; /* Отступ под изображением */
+}
+
+.media__image {
+  width: 120px;
+  margin-bottom: 20px; /* Добавить отступ для текста под иконкой */
+}
+.text {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.text__caption {
+  position: absolute;
+  bottom: 20px; /* Сдвиг вверх от нижней границы */
+  right: 30px; /* Сдвиг правее */
+}
+
+.text__body {
+  margin: 20px 0 0 30px; /* Сдвиг ниже и правее */
+  text-align: left; /* Текст выровнен влево */
+}
+.text__subtitle {
+  margin-top: 30px; /* Сдвиг ниже */
+  margin-right: 2px; /* Сдвиг правее */
+  text-align: center; /* Выравнивание по правому краю */
+}
+.text__small {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  text-align: right;
+}
+.text__heading {
+  margin: 0;
+  text-align: center;
+  font-size: 18px; /* Размер текста */
+  color: #fff; /* Цвет текста, если требуется */
+}
