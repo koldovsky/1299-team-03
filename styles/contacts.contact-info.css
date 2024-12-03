@@ -92,6 +92,14 @@
     text-align: start;
   }
 
+  .contact-form__input::placeholder {
+    padding-left: 10px;
+  }
+
+  .contact-form__input--message::placeholder {
+    padding-top: 15px;
+  }
+
   .contact-form__input--message {
     height: 194px;
   }
