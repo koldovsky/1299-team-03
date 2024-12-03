@@ -1,5 +1,6 @@
 .wrapper {
-  padding: 90px 24px 30px 24px;
+  padding-top: 90px;
+  padding-bottom: 30px;
   line-height: 25.5px;
 }
 
@@ -10,7 +11,7 @@
 
   .contacts__data {
     margin-bottom: 60px;
-    padding-left: 30px;
+
     padding-right: 30px;
   }
 
@@ -52,7 +53,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   .contacts__info {
     grid-template-columns: 1fr 1fr;
   }

@@ -1,5 +1,6 @@
 .contacts__term-conditions {
-  padding: 30px 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 17px;
   line-height: 25.5px;
 
@@ -21,6 +22,10 @@
   .term-conditions__subtitle {
     font-weight: 400;
     color: var(--primary-900);
+  }
+
+  .contacts__privacy-policy-paragraph {
+    font-style: italic;
   }
 
   .contacts__term-text {

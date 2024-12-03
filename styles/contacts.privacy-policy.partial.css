@@ -1,5 +1,5 @@
 .contacts__privacy-policy {
-  padding: 30px 24px;
+  padding-top: 30px;
   font-size: 17px;
   line-height: 25.5px;
 
@@ -25,8 +25,13 @@
     margin-top: 20px;
   }
 
+  .contacts__privacy-policy-subtitle {
+    font-size: 17px;
+  }
+
+
   .contacts__privacy-policy-list {
-    font-size: 15px;
+    font-size: 14px;
   }
 
 .contacts__privacy-policy-item {
