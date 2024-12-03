@@ -19,24 +19,30 @@
     border-bottom: 1px solid #d3e2c4;
   }
 
+  .term-conditions__name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
   .term-conditions__subtitle {
     font-weight: 400;
     color: var(--primary-900);
   }
 
-  .contacts__privacy-policy-paragraph {
-    font-style: italic;
-  }
-
   .contacts__term-text {
     margin-top: 20px;
-    letter-spacing:normal
+    letter-spacing: normal;
+    display: none;;
   }
 
   @media (min-width: 760px) {
     .contacts__terms {
       grid-template-columns: 1fr 1fr;
-      column-gap: 60px
+      column-gap: 60px;
     }
   }
 }
+
+

@@ -29,6 +29,10 @@
     font-size: 17px;
   }
 
+  .contacts__privacy-policy-paragraph {
+    font-style: italic;
+    font-size: 14px;
+  }
 
   .contacts__privacy-policy-list {
     font-size: 14px;
