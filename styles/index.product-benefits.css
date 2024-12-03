@@ -9,8 +9,8 @@
   .product-benefits {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 55px;
-    padding: 15px;
+    gap: 40px;
+    padding: 15px 17px;
     width: 100%;
     margin: 0 auto;
   }
@@ -46,7 +46,7 @@ ul {
 
 .product-benefits__list-item {
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: var(--primary-font-family);
   color: var(--prod-box-title-color);
   line-height: 2;
