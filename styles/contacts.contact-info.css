@@ -90,13 +90,11 @@
     border: 0;
     background-color: #f8efea;
     text-align: start;
-  }
-
-  .contact-form__input::placeholder {
     padding-left: 10px;
   }
 
-  .contact-form__input--message::placeholder {
+
+  .contact-form__input--message {
     padding-top: 15px;
   }
 
