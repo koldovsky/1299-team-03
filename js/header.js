@@ -24,7 +24,13 @@ linkList.forEach(link => {
   });
 });
 
-btnSub.addEventListener("click", showMenu);
+btnSub.addEventListener("click", () => {
+  if (btnSub.classList.length === 1) {
+    return showMenu();
+  }
+
+  hideMenu();
+});
 
 [navLinks, orderButton, basket].forEach(node => {
   node.addEventListener("click", hideMenu);
@@ -33,11 +39,13 @@ btnSub.addEventListener("click", showMenu);
 function showMenu() {
   body.classList.add("overflow-hidden");
   header.classList.add("nav-visible");
+  btnSub.classList.add("close");
 }
 
 function hideMenu() {
   body.classList.remove("overflow-hidden");
   header.classList.remove("nav-visible");
+  btnSub.classList.remove("close");
 }
 
 if (!initLoad) {
