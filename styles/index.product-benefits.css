@@ -9,8 +9,8 @@
   .product-benefits {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 55px;
-    padding: 15px;
+    gap: 40px;
+    padding: 15px 5px;
     width: 100%;
     margin: 0 auto;
   }
@@ -19,14 +19,15 @@
 .product-benefits__item {
   display: grid;
   grid-template-rows: 20% 40% 40%;
-  gap: 15px;
+  gap: 10px;
   padding: 15px;
-  margin: 15;
+  margin: 15px;
 }
 
 .product-benefits__title {
   font-family: var(--secondary-font-family);
   font-size: 1.375rem;
+  font-weight: 500;
   color: var(--prod-box-title-color);
   text-align: justify;
 }
@@ -45,11 +46,11 @@ ul {
 }
 
 .product-benefits__list-item {
-  font-weight: bold;
-  font-size: 0.875rem;
+  font-weight: 600;
+  font-size: 1rem;
   font-family: var(--primary-font-family);
   color: var(--prod-box-title-color);
-  line-height: 2;
+  line-height: 2.7;
 }
 
 .product-benefits__icon {

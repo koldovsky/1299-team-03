@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   /* margin: 0px 226px; */
-  padding: 80px 15px 45px;
+  padding: 80px 15px 15px;
   min-height: 415.69px;
   background-color: #c8cfb3;
 }
@@ -25,6 +25,11 @@
 }
 
 .footer__privacy {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-bottom: 40px;
+
   min-width: 180px;
 }
 .footer__privacy-link {
@@ -37,6 +42,10 @@
 }
 
 .footer__terms {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 40px;
   min-width: 180px;
   background-color: #c8cfb3;
 }
@@ -64,8 +73,10 @@
   flex-direction: row;
   justify-content: center;
   gap: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.footer__socials-item:hover {
+.footer__socials-item svg:hover {
   background-color: #688380;
 }
 
@@ -73,8 +84,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 43px;
   margin: -12.5px -20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 906px) {
@@ -104,24 +116,36 @@
 }
 
 .footer__menu {
-  width: 80%;
-  height: 83px;
+  /* width: 80%;
+  height: 83px; */
+  display: flex;
+  
 }
 
 .footer__content {
-  margin-top: 30px;
-  height: 76.5px;
+  /* margin-top: 30px;
+  height: 76.5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer__content-phrase {
-  display: inline;
-  text-align: center;
+  /* display: inline;
+  text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-family: Chivo, sans-serif;
   font-size: 17px;
   color: #688380;
   font-style: italic;
   height: auto;
   letter-spacing: 0.7px
+  
 }
 
 .footer__line {
@@ -135,11 +159,14 @@
 
 .footer__copyright {
   background-color: #c8cfb3;
-  display: block;
-  margin: auto;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
   padding: 20px;
   box-sizing: border-box;
-  height: 59.5938px;
+  /* height: 59.5938px; */
   font-family: Chivo, sans-serif;
   font-size: 14px;
   font-weight: 500;

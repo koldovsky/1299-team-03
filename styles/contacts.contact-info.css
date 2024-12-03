@@ -90,6 +90,12 @@
     border: 0;
     background-color: #f8efea;
     text-align: start;
+    padding-left: 10px;
+  }
+
+
+  .contact-form__input--message {
+    padding-top: 15px;
   }
 
   .contact-form__input--message {
