@@ -10,25 +10,9 @@
 @import url(./global.shopping-cart.css);
 @import url(./global.footer.css);
 
-/* body {
-  font-family: var(--primary-font-family);
-  background-color: rgb(194, 204, 169);
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color:rgb(102,130,128)
-} */
-
 .contacts__body {
   background-color: var(--contacts-body-background-color);
   color: rgb(102, 130, 128);
-
 }
 
 .contacts__body a {
