@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   /* margin: 0px 226px; */
-  padding: 80px 15px 45px;
+  padding: 80px 15px 15px;
   min-height: 415.69px;
   background-color: #c8cfb3;
 }
@@ -76,7 +76,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.footer__socials-item:hover {
+.footer__socials-item svg:hover {
   background-color: #688380;
 }
 
@@ -85,6 +85,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin: -12.5px -20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 906px) {

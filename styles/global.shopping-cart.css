@@ -277,6 +277,18 @@
             background-color: var(--cart-input-bg-color);
           }
 
+          .invalid {
+            border-style: solid;
+            border-color: var(--cart-input-label-required-color);
+          }
+
+          .shopping-cart__form-error {
+            color: var(--cart-input-label-required-color);
+            margin-top: 4px;
+            font-size: 12px;
+            display: block;
+          }
+
           .shopping-cart__form-input::placeholder {
             font-family: var(--primary-font-family);
             color: var(--cart-input-placeholder-color);
