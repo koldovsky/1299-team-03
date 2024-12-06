@@ -111,6 +111,10 @@
     margin-bottom: 36px;
   }
 
+  .contact-form__button:hover {
+    background-color: rgb(34, 63, 60);
+  }
+
   @media (min-width: 600px) {
     .contact-form {
       height: 520px;
