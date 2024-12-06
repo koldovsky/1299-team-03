@@ -31,10 +31,14 @@
     color: var(--primary-900);
   }
 
+  .accordion__icon {
+    cursor: pointer;
+  }
+
   .contacts__term-text {
     margin-top: 20px;
     letter-spacing: normal;
-    display: none;;
+    display: none;
   }
 
   @media (min-width: 760px) {
@@ -44,5 +48,3 @@
     }
   }
 }
-
-

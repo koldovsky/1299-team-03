@@ -73,11 +73,12 @@
 
 .contact-form {
   background: rgb(243, 232, 226);
+  max-height: fit-content;
 
   .contact-form__form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     margin: 0 38px;
   }
 
@@ -92,7 +93,6 @@
     text-align: start;
     padding-left: 10px;
   }
-
 
   .contact-form__input--message {
     padding-top: 15px;
@@ -120,7 +120,7 @@
     .contact-form {
       height: 520px;
     }
-    
+
     .contact-form__input--message {
       height: 120px;
     }
